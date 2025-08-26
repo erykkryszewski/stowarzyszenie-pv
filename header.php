@@ -56,23 +56,11 @@ $body_classes = get_body_class();
             <a href="mailto:<?php echo esc_html($global_email); ?>"
               class="top-bar__email"><?php echo esc_html($global_email); ?></a>
           </div>
-          <?php if (!empty($global_social_media)): ?>
+
           <div class="top-bar__content top-bar__content--right">
-            <ul class="social-media top-bar__social-media <?php if (!is_front_page()) {
-              echo 'top-bar__social-media--subpage';
-            } ?>">
-              <?php foreach ($global_social_media as $key => $item): ?>
-              <li>
-                <a href="<?php echo esc_url_raw($item['link']); ?>" target="_blank">
-                  <?php if (!empty($item['icon'])) {
-                    echo wp_get_attachment_image($item['icon'], 'large', '', ['class' => '']);
-                  } ?>
-                </a>
-              </li>
-              <?php endforeach; ?>
-            </ul>
+            <a href="#" class="top-bar__panel">Panel członków</a>
           </div>
-          <?php endif; ?>
+
         </div>
       </div>
     </div>
@@ -96,7 +84,7 @@ $body_classes = get_body_class();
           $menu_class = is_front_page() ? 'nav__menu' : 'nav__menu nav__menu--subpage';
           echo wp_nav_menu(['theme_location' => 'Navigation', 'container' => 'ul', 'menu_class' => $menu_class]);
           ?>
-
+          <?php if (!empty($header_button) || !empty($header_second_button)): ?>
           <div class="nav__buttons">
             <?php if (!empty($header_button)): ?>
             <a href="<?php echo esc_url($header_button['url']); ?>"
@@ -120,6 +108,7 @@ $body_classes = get_body_class();
             </a>
             <?php endif; ?>
           </div>
+          <?php endif; ?>
 
           <div class="hamburger nav__hamburger <?php if (!is_front_page()) {
             echo 'nav__hamburger--subpage';

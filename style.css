@@ -3322,11 +3322,9 @@ html::-webkit-scrollbar-thumb {
 }
 
 .top-bar {
-  background: #303030;
+  background: #ffffff;
   width: 100%;
-  border-bottom: 1px solid #f8f9fc;
-  /* temporary */
-  display: none;
+  border-bottom: 1px solid #e0e0e0;
 }
 
 .top-bar__wrapper {
@@ -3398,40 +3396,49 @@ html::-webkit-scrollbar-thumb {
   }
 }
 
-.top-bar__phone, .top-bar__email {
+.top-bar__phone, .top-bar__email, .top-bar__panel {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 8px;
-  color: #ffffff;
+  color: #303030;
   font-size: 15px;
   font-weight: 500;
 }
 
-.top-bar__phone::before, .top-bar__email::before {
+.top-bar__phone::before, .top-bar__email::before, .top-bar__panel::before {
   content: '';
   display: block;
   position: relative;
+  bottom: -2px;
 }
 
-.top-bar__phone:hover, .top-bar__email:hover {
-  color: #ffffff;
+.top-bar__phone:hover, .top-bar__email:hover, .top-bar__panel:hover {
+  color: #303030;
 }
 
 .top-bar__phone::before {
   width: 18px;
   height: 18px;
   background: url("./images/phone-icon.svg") center/contain no-repeat;
-  -webkit-filter: brightness(0) invert(1);
-          filter: brightness(0) invert(1);
+  -webkit-filter: brightness(0) invert(0.2);
+          filter: brightness(0) invert(0.2);
 }
 
 .top-bar__email::before {
   width: 18px;
   height: 18px;
   background: url("./images/email-icon.svg") center/contain no-repeat;
-  -webkit-filter: brightness(0) invert(1);
-          filter: brightness(0) invert(1);
+  -webkit-filter: brightness(0) invert(0.2);
+          filter: brightness(0) invert(0.2);
+}
+
+.top-bar__panel::before {
+  width: 20px;
+  height: 20px;
+  background: url("./images/panel-icon.png") center/contain no-repeat;
+  -webkit-filter: brightness(0) invert(0.1);
+          filter: brightness(0) invert(0.1);
 }
 
 .top-bar__social-media {
@@ -3441,8 +3448,8 @@ html::-webkit-scrollbar-thumb {
 .top-bar__social-media a {
   max-width: 25px;
   height: 25px;
-  -webkit-filter: brightness(0) invert(1);
-          filter: brightness(0) invert(1);
+  -webkit-filter: brightness(0) invert(0.2);
+          filter: brightness(0) invert(0.2);
 }
 
 .bottom-bar {
@@ -7154,6 +7161,12 @@ body.admin-bar .header--fixed {
   margin: 0 0 0 30px;
 }
 
+@media (max-width: 1199px) {
+  .nav__buttons {
+    display: none !important;
+  }
+}
+
 .nav__button {
   margin: 0;
   border: 2px solid #f6a520;
@@ -7374,6 +7387,11 @@ body.admin-bar .header--fixed {
   .nav__menu > li > ul.sub-menu li a {
     font-size: 15px;
   }
+}
+
+.nav__menu > li > ul.sub-menu li.special a {
+  color: #ffffff;
+  background: #b67813;
 }
 
 .nav__menu > li > ul.sub-menu:hover {
