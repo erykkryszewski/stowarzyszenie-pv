@@ -14,10 +14,12 @@
     top: 0;
     right: 0;
     z-index: 1;
+    background: $dark;
 
     img {
       object-position: center left;
       filter: brightness(0.9);
+      display: none;
     }
 
     &--plain {
@@ -34,7 +36,15 @@
     bottom: 0;
     left: 0;
     z-index: 0;
-    background: linear-gradient(61deg, rgb(28, 30, 43) 0%, rgba(28, 30, 43, 0.7) 23%, rgba(28, 30, 43, 0.5) 48%, rgba(28, 30, 43, 0.2) 89%, rgba(28, 30, 43, 0.1) 100%);
+    background: linear-gradient(
+      61deg,
+      rgba(37, 37, 37, 0.4) 0%,
+      rgba(39, 39, 39, 0.5) 23%,
+      rgba(40, 40, 40, 0.4) 48%,
+      rgba(50, 50, 50, 0.4) 89%,
+      rgba(60, 60, 60, 0.35) 100%
+    );
+    display: none;
   }
 
   &__wrapper {
@@ -45,16 +55,16 @@
     position: relative;
     z-index: 2;
     text-align: center;
-    padding: 60px 0;
+    padding: 35px 0 40px;
 
-    @media(max-width: 767px) {
+    @media (max-width: 767px) {
       padding: 50px 0;
     }
   }
 
   &__title {
     color: $white;
-    
+
     &--white {
       color: $white;
     }

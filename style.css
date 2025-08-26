@@ -2008,7 +2008,16 @@ body.compensate-for-scrollbar {
 /*
  * Typography
  */
-h1, .h1, .hero-slider__title, .numbers__digit, .list__number, .counter__item, .theme-blog__decorator, h1 > strong, h1 > b, h1 > span {
+h1,
+.h1,
+.hero-slider__title,
+.numbers__digit,
+.list__number,
+.counter__item,
+.theme-blog__decorator,
+h1 > strong,
+h1 > b,
+h1 > span {
   color: #303030;
   font-family: "Oswald", sans-serif;
   font-size: 64px;
@@ -2017,18 +2026,43 @@ h1, .h1, .hero-slider__title, .numbers__digit, .list__number, .counter__item, .t
 }
 
 @media (max-width: 1199px) {
-  h1, .h1, .hero-slider__title, .numbers__digit, .list__number, .counter__item, .theme-blog__decorator, h1 > strong, h1 > b, h1 > span {
+  h1,
+  .h1,
+  .hero-slider__title,
+  .numbers__digit,
+  .list__number,
+  .counter__item,
+  .theme-blog__decorator,
+  h1 > strong,
+  h1 > b,
+  h1 > span {
     font-size: 61px;
   }
 }
 
 @media (max-width: 767px) {
-  h1, .h1, .hero-slider__title, .numbers__digit, .list__number, .counter__item, .theme-blog__decorator, h1 > strong, h1 > b, h1 > span {
+  h1,
+  .h1,
+  .hero-slider__title,
+  .numbers__digit,
+  .list__number,
+  .counter__item,
+  .theme-blog__decorator,
+  h1 > strong,
+  h1 > b,
+  h1 > span {
     font-size: 58px;
   }
 }
 
-h2, .h2, .text-with-image__title, .thank-you__title, .text-image-decorated__content p, h2 > strong, h2 > b, h2 > span {
+h2,
+.h2,
+.text-with-image__title,
+.thank-you__title,
+.text-image-decorated__content p,
+h2 > strong,
+h2 > b,
+h2 > span {
   color: #303030;
   font-family: "Oswald", sans-serif;
   font-size: 45px;
@@ -2037,12 +2071,43 @@ h2, .h2, .text-with-image__title, .thank-you__title, .text-image-decorated__cont
 }
 
 @media (max-width: 1199px) {
-  h2, .h2, .text-with-image__title, .thank-you__title, .text-image-decorated__content p, h2 > strong, h2 > b, h2 > span {
+  h2,
+  .h2,
+  .text-with-image__title,
+  .thank-you__title,
+  .text-image-decorated__content p,
+  h2 > strong,
+  h2 > b,
+  h2 > span {
     font-size: 30px;
   }
 }
 
-h3, .h3, .numbers__title, .testimonials__name, .motto-bar__content p, .counter__content p, .counter__content p span .counter__item, .stats__title, .footer__column h1, .footer__column h2, .footer__column h3, .footer__column h4, .theme-blog__title, .woocommerce-cart .cart-collaterals table .shipping th, .woocommerce-cart .cart-collaterals table .order-total th, .woocommerce-checkout .woocommerce h3, .woocommerce-checkout .woocommerce h3 span, .woocommerce-order-received .woocommerce-thankyou-order-received, .woocommerce-order-received h2, .single-product #primary .product_title, .products.related > h2, .products.up-sells > h2, h3 > strong, h3 > b, h3 > span {
+h3,
+.h3,
+.numbers__title,
+.testimonials__name,
+.motto-bar__content p,
+.counter__content p,
+.counter__content p span .counter__item,
+.stats__title,
+.footer__column h1,
+.footer__column h2,
+.footer__column h3,
+.footer__column h4,
+.theme-blog__title,
+.woocommerce-cart .cart-collaterals table .shipping th,
+.woocommerce-cart .cart-collaterals table .order-total th,
+.woocommerce-checkout .woocommerce h3,
+.woocommerce-checkout .woocommerce h3 span,
+.woocommerce-order-received .woocommerce-thankyou-order-received,
+.woocommerce-order-received h2,
+.single-product #primary .product_title,
+.products.related > h2,
+.products.up-sells > h2,
+h3 > strong,
+h3 > b,
+h3 > span {
   color: #303030;
   font-family: "Oswald", sans-serif;
   font-size: 24px;
@@ -2051,12 +2116,77 @@ h3, .h3, .numbers__title, .testimonials__name, .motto-bar__content p, .counter__
 }
 
 @media (max-width: 1199px) {
-  h3, .h3, .numbers__title, .testimonials__name, .motto-bar__content p, .counter__content p, .counter__content p span .counter__item, .stats__title, .footer__column h1, .footer__column h2, .footer__column h3, .footer__column h4, .theme-blog__title, .woocommerce-cart .cart-collaterals table .shipping th, .woocommerce-cart .cart-collaterals table .order-total th, .woocommerce-checkout .woocommerce h3, .woocommerce-checkout .woocommerce h3 span, .woocommerce-order-received .woocommerce-thankyou-order-received, .woocommerce-order-received h2, .single-product #primary .product_title, .products.related > h2, .products.up-sells > h2, h3 > strong, h3 > b, h3 > span {
+  h3,
+  .h3,
+  .numbers__title,
+  .testimonials__name,
+  .motto-bar__content p,
+  .counter__content p,
+  .counter__content p span .counter__item,
+  .stats__title,
+  .footer__column h1,
+  .footer__column h2,
+  .footer__column h3,
+  .footer__column h4,
+  .theme-blog__title,
+  .woocommerce-cart .cart-collaterals table .shipping th,
+  .woocommerce-cart .cart-collaterals table .order-total th,
+  .woocommerce-checkout .woocommerce h3,
+  .woocommerce-checkout .woocommerce h3 span,
+  .woocommerce-order-received .woocommerce-thankyou-order-received,
+  .woocommerce-order-received h2,
+  .single-product #primary .product_title,
+  .products.related > h2,
+  .products.up-sells > h2,
+  h3 > strong,
+  h3 > b,
+  h3 > span {
     font-size: 22px;
   }
 }
 
-h4, .h4, .text-with-image__subtitle, .section-title h2 span, .three-boxes__content h1, .three-boxes__content h2, .three-boxes__content h3, .three-boxes__content h4, .three-boxes__content h5, .counter__content p span, .counter__content p span .counter__content p, .counter__content p span .counter__content p span, .counter__content p span .counter__item::after, .counter__item::after, .theme-content-product-title, .woocommerce-cart form.woocommerce-cart-form .woocommerce-cart-form__cart-item.cart_item .product-details .product-name a, .product h2, .product .woocommerce-loop-product__title, .woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table thead tr th, .woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table tbody tr th, .woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table tfoot tr th, .woocommerce-order-received table thead tr th, .woocommerce-order-received table tbody tr th, .woocommerce-order-received table tfoot tr th, .single-product #primary .single-product-content h3, .single-product #primary .single-product-content h4, .woocommerce-Address-title.title > div, h4 > strong, h4 > b, h4 > span {
+h4,
+.h4,
+.text-with-image__subtitle,
+.section-title__title span,
+.contact__info h1,
+.contact__info h2,
+.contact__info h3,
+.contact__info h4,
+.contact__info h5,
+.contact__info h6,
+.contact__bottom-content h1,
+.contact__bottom-content h2,
+.contact__bottom-content h3,
+.contact__bottom-content h4,
+.contact__bottom-content h5,
+.contact__bottom-content h6,
+.three-boxes__content h1,
+.three-boxes__content h2,
+.three-boxes__content h3,
+.three-boxes__content h4,
+.three-boxes__content h5,
+.counter__content p span,
+.counter__content p span .counter__content p,
+.counter__content p span .counter__content p span,
+.counter__content p span .counter__item::after,
+.counter__item::after,
+.theme-content-product-title,
+.woocommerce-cart form.woocommerce-cart-form .woocommerce-cart-form__cart-item.cart_item .product-details .product-name a,
+.product h2,
+.product .woocommerce-loop-product__title,
+.woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table thead tr th,
+.woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table tbody tr th,
+.woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table tfoot tr th,
+.woocommerce-order-received table thead tr th,
+.woocommerce-order-received table tbody tr th,
+.woocommerce-order-received table tfoot tr th,
+.single-product #primary .single-product-content h3,
+.single-product #primary .single-product-content h4,
+.woocommerce-Address-title.title > div,
+h4 > strong,
+h4 > b,
+h4 > span {
   color: #303030;
   font-family: "Oswald", sans-serif;
   font-size: 21px;
@@ -2065,23 +2195,138 @@ h4, .h4, .text-with-image__subtitle, .section-title h2 span, .three-boxes__conte
 }
 
 @media (max-width: 1199px) {
-  h4, .h4, .text-with-image__subtitle, .section-title h2 span, .three-boxes__content h1, .three-boxes__content h2, .three-boxes__content h3, .three-boxes__content h4, .three-boxes__content h5, .counter__content p span, .counter__content p span .counter__content p, .counter__content p span .counter__content p span, .counter__content p span .counter__item::after, .counter__item::after, .theme-content-product-title, .woocommerce-cart form.woocommerce-cart-form .woocommerce-cart-form__cart-item.cart_item .product-details .product-name a, .product h2, .product .woocommerce-loop-product__title, .woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table thead tr th, .woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table tbody tr th, .woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table tfoot tr th, .woocommerce-order-received table thead tr th, .woocommerce-order-received table tbody tr th, .woocommerce-order-received table tfoot tr th, .single-product #primary .single-product-content h3, .single-product #primary .single-product-content h4, .woocommerce-Address-title.title > div, h4 > strong, h4 > b, h4 > span {
-    font-size: 20px;
+  h4,
+  .h4,
+  .text-with-image__subtitle,
+  .section-title__title span,
+  .contact__info h1,
+  .contact__info h2,
+  .contact__info h3,
+  .contact__info h4,
+  .contact__info h5,
+  .contact__info h6,
+  .contact__bottom-content h1,
+  .contact__bottom-content h2,
+  .contact__bottom-content h3,
+  .contact__bottom-content h4,
+  .contact__bottom-content h5,
+  .contact__bottom-content h6,
+  .three-boxes__content h1,
+  .three-boxes__content h2,
+  .three-boxes__content h3,
+  .three-boxes__content h4,
+  .three-boxes__content h5,
+  .counter__content p span,
+  .counter__content p span .counter__content p,
+  .counter__content p span .counter__content p span,
+  .counter__content p span .counter__item::after,
+  .counter__item::after,
+  .theme-content-product-title,
+  .woocommerce-cart form.woocommerce-cart-form .woocommerce-cart-form__cart-item.cart_item .product-details .product-name a,
+  .product h2,
+  .product .woocommerce-loop-product__title,
+  .woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table thead tr th,
+  .woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table tbody tr th,
+  .woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table tfoot tr th,
+  .woocommerce-order-received table thead tr th,
+  .woocommerce-order-received table tbody tr th,
+  .woocommerce-order-received table tfoot tr th,
+  .single-product #primary .single-product-content h3,
+  .single-product #primary .single-product-content h4,
+  .woocommerce-Address-title.title > div,
+  h4 > strong,
+  h4 > b,
+  h4 > span {
+    font-size: 19px;
   }
 }
 
-p, .paragraph, .social-media::before, .contact__phone, .contact__email, .contact__form .gform_confirmation_message, .wyswig-content__wrapper ul li, .wyswig-content__wrapper ol li, .text-image-decorated__author, .single-blog-post__content ul li, .single-blog-post__content ol li, .woocommerce-checkout .woocommerce .woocommerce-billing-fields__field-wrapper p label, .woocommerce-checkout .woocommerce .woocommerce-shipping-fields__field-wrapper p label, .woocommerce-checkout .woocommerce #order_comments_field label, .woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table thead tr td, .woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table tbody tr td, .woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table tfoot tr td, .woocommerce-checkout-payment ul li .wc-credit-card-form.wc-payment-form label, .woocommerce-error li, .woocommerce-order-received .woocommerce-order-overview.woocommerce-thankyou-order-details.order_details li, .woocommerce-order-received .woocommerce-order-overview.woocommerce-thankyou-order-details.order_details li strong, .woocommerce-order-received table thead tr td, .woocommerce-order-received table tbody tr td, .woocommerce-order-received table tfoot tr td, .product-filters form > ul li label, .single-product #primary .woocommerce-tabs ul li, .single-product #primary .woocommerce-tabs ol li, .single-product #primary .woocommerce-product-details__short-description, .single-product #primary .woocommerce-product-details__short-description ul li, .single-product #primary .woocommerce-product-details__short-description ol li, .variations th, .woocommerce-account .default-block.container .woocommerce nav ul li a, .woocommerce-account .woocommerce-shop .default-block#main .woocommerce nav ul li a, .woocommerce-shop .woocommerce-account .default-block#main .woocommerce nav ul li a, .woocommerce-account .tax-product_cat .default-block#main .woocommerce nav ul li a, .tax-product_cat .woocommerce-account .default-block#main .woocommerce nav ul li a, .woocommerce-account .single-product .default-block#primary .woocommerce nav ul li a, .single-product .woocommerce-account .default-block#primary .woocommerce nav ul li a, .woocommerce-account .woocommerce label {
-  font-size: 20px;
+p,
+.paragraph,
+.social-media::before,
+.contact__info a,
+.contact__form .gform_confirmation_message,
+.wyswig-content__wrapper ul li,
+.wyswig-content__wrapper ol li,
+.text-image-decorated__author,
+.single-blog-post__content ul li,
+.single-blog-post__content ol li,
+.woocommerce-checkout .woocommerce .woocommerce-billing-fields__field-wrapper p label,
+.woocommerce-checkout .woocommerce .woocommerce-shipping-fields__field-wrapper p label,
+.woocommerce-checkout .woocommerce #order_comments_field label,
+.woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table thead tr td,
+.woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table tbody tr td,
+.woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table tfoot tr td,
+.woocommerce-checkout-payment ul li .wc-credit-card-form.wc-payment-form label,
+.woocommerce-error li,
+.woocommerce-order-received .woocommerce-order-overview.woocommerce-thankyou-order-details.order_details li,
+.woocommerce-order-received .woocommerce-order-overview.woocommerce-thankyou-order-details.order_details li strong,
+.woocommerce-order-received table thead tr td,
+.woocommerce-order-received table tbody tr td,
+.woocommerce-order-received table tfoot tr td,
+.product-filters form > ul li label,
+.single-product #primary .woocommerce-tabs ul li,
+.single-product #primary .woocommerce-tabs ol li,
+.single-product #primary .woocommerce-product-details__short-description,
+.single-product #primary .woocommerce-product-details__short-description ul li,
+.single-product #primary .woocommerce-product-details__short-description ol li,
+.variations th,
+.woocommerce-account .default-block.container .woocommerce nav ul li a,
+.woocommerce-account .woocommerce-shop .default-block#main .woocommerce nav ul li a,
+.woocommerce-shop .woocommerce-account .default-block#main .woocommerce nav ul li a,
+.woocommerce-account .tax-product_cat .default-block#main .woocommerce nav ul li a,
+.tax-product_cat .woocommerce-account .default-block#main .woocommerce nav ul li a,
+.woocommerce-account .single-product .default-block#primary .woocommerce nav ul li a,
+.single-product .woocommerce-account .default-block#primary .woocommerce nav ul li a,
+.woocommerce-account .woocommerce label {
+  font-size: 19px;
   line-height: 1.65;
   font-weight: 400;
-  margin: 20px 0 0;
+  margin: 19px 0 0;
   color: #303030;
   font-family: "Titillium Web", sans-serif;
 }
 
-p > a, .paragraph > a, .social-media::before > a, .contact__phone > a, .contact__email > a, .contact__form .gform_confirmation_message > a, .wyswig-content__wrapper ul li > a, .wyswig-content__wrapper ol li > a, .text-image-decorated__author > a, .single-blog-post__content ul li > a, .single-blog-post__content ol li > a, .woocommerce-checkout .woocommerce .woocommerce-billing-fields__field-wrapper p label > a, .woocommerce-checkout .woocommerce .woocommerce-shipping-fields__field-wrapper p label > a, .woocommerce-checkout .woocommerce #order_comments_field label > a, .woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table thead tr td > a, .woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table tbody tr td > a, .woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table tfoot tr td > a, .woocommerce-checkout-payment ul li .wc-credit-card-form.wc-payment-form label > a, .woocommerce-error li > a, .woocommerce-order-received .woocommerce-order-overview.woocommerce-thankyou-order-details.order_details li > a, .woocommerce-order-received .woocommerce-order-overview.woocommerce-thankyou-order-details.order_details li strong > a, .woocommerce-order-received table thead tr td > a, .woocommerce-order-received table tbody tr td > a, .woocommerce-order-received table tfoot tr td > a, .product-filters form > ul li label > a, .single-product #primary .woocommerce-tabs ul li > a, .single-product #primary .woocommerce-tabs ol li > a, .single-product #primary .woocommerce-product-details__short-description > a, .single-product #primary .woocommerce-product-details__short-description ul li > a, .single-product #primary .woocommerce-product-details__short-description ol li > a, .variations th > a, .woocommerce-account .default-block.container .woocommerce nav ul li a > a, .woocommerce-account .woocommerce-shop .default-block#main .woocommerce nav ul li a > a, .woocommerce-shop .woocommerce-account .default-block#main .woocommerce nav ul li a > a, .woocommerce-account .tax-product_cat .default-block#main .woocommerce nav ul li a > a, .tax-product_cat .woocommerce-account .default-block#main .woocommerce nav ul li a > a, .woocommerce-account .single-product .default-block#primary .woocommerce nav ul li a > a, .single-product .woocommerce-account .default-block#primary .woocommerce nav ul li a > a, .woocommerce-account .woocommerce label > a {
+p > a,
+.paragraph > a,
+.social-media::before > a,
+.contact__info a > a,
+.contact__form .gform_confirmation_message > a,
+.wyswig-content__wrapper ul li > a,
+.wyswig-content__wrapper ol li > a,
+.text-image-decorated__author > a,
+.single-blog-post__content ul li > a,
+.single-blog-post__content ol li > a,
+.woocommerce-checkout .woocommerce .woocommerce-billing-fields__field-wrapper p label > a,
+.woocommerce-checkout .woocommerce .woocommerce-shipping-fields__field-wrapper p label > a,
+.woocommerce-checkout .woocommerce #order_comments_field label > a,
+.woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table thead tr td > a,
+.woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table tbody tr td > a,
+.woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table tfoot tr td > a,
+.woocommerce-checkout-payment ul li .wc-credit-card-form.wc-payment-form label > a,
+.woocommerce-error li > a,
+.woocommerce-order-received .woocommerce-order-overview.woocommerce-thankyou-order-details.order_details li > a,
+.woocommerce-order-received .woocommerce-order-overview.woocommerce-thankyou-order-details.order_details li strong > a,
+.woocommerce-order-received table thead tr td > a,
+.woocommerce-order-received table tbody tr td > a,
+.woocommerce-order-received table tfoot tr td > a,
+.product-filters form > ul li label > a,
+.single-product #primary .woocommerce-tabs ul li > a,
+.single-product #primary .woocommerce-tabs ol li > a,
+.single-product #primary .woocommerce-product-details__short-description > a,
+.single-product #primary .woocommerce-product-details__short-description ul li > a,
+.single-product #primary .woocommerce-product-details__short-description ol li > a,
+.variations th > a,
+.woocommerce-account .default-block.container .woocommerce nav ul li a > a,
+.woocommerce-account .woocommerce-shop .default-block#main .woocommerce nav ul li a > a,
+.woocommerce-shop .woocommerce-account .default-block#main .woocommerce nav ul li a > a,
+.woocommerce-account .tax-product_cat .default-block#main .woocommerce nav ul li a > a,
+.tax-product_cat .woocommerce-account .default-block#main .woocommerce nav ul li a > a,
+.woocommerce-account .single-product .default-block#primary .woocommerce nav ul li a > a,
+.single-product .woocommerce-account .default-block#primary .woocommerce nav ul li a > a,
+.woocommerce-account .woocommerce label > a {
   font-weight: 500;
-  font-size: 20px;
+  font-size: 19px;
   line-height: 1.65;
   text-decoration: underline;
   display: inline-block;
@@ -2089,37 +2334,298 @@ p > a, .paragraph > a, .social-media::before > a, .contact__phone > a, .contact_
   font-family: "Titillium Web", sans-serif;
 }
 
-p > a:hover, .paragraph > a:hover, .social-media::before > a:hover, .contact__phone > a:hover, .contact__email > a:hover, .contact__form .gform_confirmation_message > a:hover, .wyswig-content__wrapper ul li > a:hover, .wyswig-content__wrapper ol li > a:hover, .text-image-decorated__author > a:hover, .single-blog-post__content ul li > a:hover, .single-blog-post__content ol li > a:hover, .woocommerce-checkout .woocommerce .woocommerce-billing-fields__field-wrapper p label > a:hover, .woocommerce-checkout .woocommerce .woocommerce-shipping-fields__field-wrapper p label > a:hover, .woocommerce-checkout .woocommerce #order_comments_field label > a:hover, .woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table thead tr td > a:hover, .woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table tbody tr td > a:hover, .woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table tfoot tr td > a:hover, .woocommerce-checkout-payment ul li .wc-credit-card-form.wc-payment-form label > a:hover, .woocommerce-error li > a:hover, .woocommerce-order-received .woocommerce-order-overview.woocommerce-thankyou-order-details.order_details li > a:hover, .woocommerce-order-received .woocommerce-order-overview.woocommerce-thankyou-order-details.order_details li strong > a:hover, .woocommerce-order-received table thead tr td > a:hover, .woocommerce-order-received table tbody tr td > a:hover, .woocommerce-order-received table tfoot tr td > a:hover, .product-filters form > ul li label > a:hover, .single-product #primary .woocommerce-tabs ul li > a:hover, .single-product #primary .woocommerce-tabs ol li > a:hover, .single-product #primary .woocommerce-product-details__short-description > a:hover, .single-product #primary .woocommerce-product-details__short-description ul li > a:hover, .single-product #primary .woocommerce-product-details__short-description ol li > a:hover, .variations th > a:hover, .woocommerce-account .default-block.container .woocommerce nav ul li a > a:hover, .woocommerce-account .woocommerce-shop .default-block#main .woocommerce nav ul li a > a:hover, .woocommerce-shop .woocommerce-account .default-block#main .woocommerce nav ul li a > a:hover, .woocommerce-account .tax-product_cat .default-block#main .woocommerce nav ul li a > a:hover, .tax-product_cat .woocommerce-account .default-block#main .woocommerce nav ul li a > a:hover, .woocommerce-account .single-product .default-block#primary .woocommerce nav ul li a > a:hover, .single-product .woocommerce-account .default-block#primary .woocommerce nav ul li a > a:hover, .woocommerce-account .woocommerce label > a:hover {
+p > a:hover,
+.paragraph > a:hover,
+.social-media::before > a:hover,
+.contact__info a > a:hover,
+.contact__form .gform_confirmation_message > a:hover,
+.wyswig-content__wrapper ul li > a:hover,
+.wyswig-content__wrapper ol li > a:hover,
+.text-image-decorated__author > a:hover,
+.single-blog-post__content ul li > a:hover,
+.single-blog-post__content ol li > a:hover,
+.woocommerce-checkout .woocommerce .woocommerce-billing-fields__field-wrapper p label > a:hover,
+.woocommerce-checkout .woocommerce .woocommerce-shipping-fields__field-wrapper p label > a:hover,
+.woocommerce-checkout .woocommerce #order_comments_field label > a:hover,
+.woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table thead tr td > a:hover,
+.woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table tbody tr td > a:hover,
+.woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table tfoot tr td > a:hover,
+.woocommerce-checkout-payment ul li .wc-credit-card-form.wc-payment-form label > a:hover,
+.woocommerce-error li > a:hover,
+.woocommerce-order-received .woocommerce-order-overview.woocommerce-thankyou-order-details.order_details li > a:hover,
+.woocommerce-order-received .woocommerce-order-overview.woocommerce-thankyou-order-details.order_details li strong > a:hover,
+.woocommerce-order-received table thead tr td > a:hover,
+.woocommerce-order-received table tbody tr td > a:hover,
+.woocommerce-order-received table tfoot tr td > a:hover,
+.product-filters form > ul li label > a:hover,
+.single-product #primary .woocommerce-tabs ul li > a:hover,
+.single-product #primary .woocommerce-tabs ol li > a:hover,
+.single-product #primary .woocommerce-product-details__short-description > a:hover,
+.single-product #primary .woocommerce-product-details__short-description ul li > a:hover,
+.single-product #primary .woocommerce-product-details__short-description ol li > a:hover,
+.variations th > a:hover,
+.woocommerce-account .default-block.container .woocommerce nav ul li a > a:hover,
+.woocommerce-account .woocommerce-shop .default-block#main .woocommerce nav ul li a > a:hover,
+.woocommerce-shop .woocommerce-account .default-block#main .woocommerce nav ul li a > a:hover,
+.woocommerce-account .tax-product_cat .default-block#main .woocommerce nav ul li a > a:hover,
+.tax-product_cat .woocommerce-account .default-block#main .woocommerce nav ul li a > a:hover,
+.woocommerce-account .single-product .default-block#primary .woocommerce nav ul li a > a:hover,
+.single-product .woocommerce-account .default-block#primary .woocommerce nav ul li a > a:hover,
+.woocommerce-account .woocommerce label > a:hover {
   text-decoration: underline;
   color: #303030;
 }
 
-p > strong, .paragraph > strong, .social-media::before > strong, .contact__phone > strong, .contact__email > strong, .contact__form .gform_confirmation_message > strong, .wyswig-content__wrapper ul li > strong, .wyswig-content__wrapper ol li > strong, .text-image-decorated__author > strong, .single-blog-post__content ul li > strong, .single-blog-post__content ol li > strong, .woocommerce-checkout .woocommerce .woocommerce-billing-fields__field-wrapper p label > strong, .woocommerce-checkout .woocommerce .woocommerce-shipping-fields__field-wrapper p label > strong, .woocommerce-checkout .woocommerce #order_comments_field label > strong, .woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table thead tr td > strong, .woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table tbody tr td > strong, .woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table tfoot tr td > strong, .woocommerce-checkout-payment ul li .wc-credit-card-form.wc-payment-form label > strong, .woocommerce-error li > strong, .woocommerce-order-received .woocommerce-order-overview.woocommerce-thankyou-order-details.order_details li > strong, .woocommerce-order-received .woocommerce-order-overview.woocommerce-thankyou-order-details.order_details li strong > strong, .woocommerce-order-received table thead tr td > strong, .woocommerce-order-received table tbody tr td > strong, .woocommerce-order-received table tfoot tr td > strong, .product-filters form > ul li label > strong, .single-product #primary .woocommerce-tabs ul li > strong, .single-product #primary .woocommerce-tabs ol li > strong, .single-product #primary .woocommerce-product-details__short-description > strong, .single-product #primary .woocommerce-product-details__short-description ul li > strong, .single-product #primary .woocommerce-product-details__short-description ol li > strong, .variations th > strong, .woocommerce-account .default-block.container .woocommerce nav ul li a > strong, .woocommerce-account .woocommerce-shop .default-block#main .woocommerce nav ul li a > strong, .woocommerce-shop .woocommerce-account .default-block#main .woocommerce nav ul li a > strong, .woocommerce-account .tax-product_cat .default-block#main .woocommerce nav ul li a > strong, .tax-product_cat .woocommerce-account .default-block#main .woocommerce nav ul li a > strong, .woocommerce-account .single-product .default-block#primary .woocommerce nav ul li a > strong, .single-product .woocommerce-account .default-block#primary .woocommerce nav ul li a > strong, .woocommerce-account .woocommerce label > strong {
+p > strong,
+.paragraph > strong,
+.social-media::before > strong,
+.contact__info a > strong,
+.contact__form .gform_confirmation_message > strong,
+.wyswig-content__wrapper ul li > strong,
+.wyswig-content__wrapper ol li > strong,
+.text-image-decorated__author > strong,
+.single-blog-post__content ul li > strong,
+.single-blog-post__content ol li > strong,
+.woocommerce-checkout .woocommerce .woocommerce-billing-fields__field-wrapper p label > strong,
+.woocommerce-checkout .woocommerce .woocommerce-shipping-fields__field-wrapper p label > strong,
+.woocommerce-checkout .woocommerce #order_comments_field label > strong,
+.woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table thead tr td > strong,
+.woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table tbody tr td > strong,
+.woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table tfoot tr td > strong,
+.woocommerce-checkout-payment ul li .wc-credit-card-form.wc-payment-form label > strong,
+.woocommerce-error li > strong,
+.woocommerce-order-received .woocommerce-order-overview.woocommerce-thankyou-order-details.order_details li > strong,
+.woocommerce-order-received .woocommerce-order-overview.woocommerce-thankyou-order-details.order_details li strong > strong,
+.woocommerce-order-received table thead tr td > strong,
+.woocommerce-order-received table tbody tr td > strong,
+.woocommerce-order-received table tfoot tr td > strong,
+.product-filters form > ul li label > strong,
+.single-product #primary .woocommerce-tabs ul li > strong,
+.single-product #primary .woocommerce-tabs ol li > strong,
+.single-product #primary .woocommerce-product-details__short-description > strong,
+.single-product #primary .woocommerce-product-details__short-description ul li > strong,
+.single-product #primary .woocommerce-product-details__short-description ol li > strong,
+.variations th > strong,
+.woocommerce-account .default-block.container .woocommerce nav ul li a > strong,
+.woocommerce-account .woocommerce-shop .default-block#main .woocommerce nav ul li a > strong,
+.woocommerce-shop .woocommerce-account .default-block#main .woocommerce nav ul li a > strong,
+.woocommerce-account .tax-product_cat .default-block#main .woocommerce nav ul li a > strong,
+.tax-product_cat .woocommerce-account .default-block#main .woocommerce nav ul li a > strong,
+.woocommerce-account .single-product .default-block#primary .woocommerce nav ul li a > strong,
+.single-product .woocommerce-account .default-block#primary .woocommerce nav ul li a > strong,
+.woocommerce-account .woocommerce label > strong {
   font-weight: 600;
-  font-size: 20px;
+  font-size: 19px;
   line-height: 1.65;
   color: #303030;
   font-family: "Titillium Web", sans-serif;
 }
 
-p > span, .paragraph > span, .social-media::before > span, .contact__phone > span, .contact__email > span, .contact__form .gform_confirmation_message > span, .wyswig-content__wrapper ul li > span, .wyswig-content__wrapper ol li > span, .text-image-decorated__author > span, .single-blog-post__content ul li > span, .single-blog-post__content ol li > span, .woocommerce-checkout .woocommerce .woocommerce-billing-fields__field-wrapper p label > span, .woocommerce-checkout .woocommerce .woocommerce-shipping-fields__field-wrapper p label > span, .woocommerce-checkout .woocommerce #order_comments_field label > span, .woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table thead tr td > span, .woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table tbody tr td > span, .woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table tfoot tr td > span, .woocommerce-checkout-payment ul li .wc-credit-card-form.wc-payment-form label > span, .woocommerce-error li > span, .woocommerce-order-received .woocommerce-order-overview.woocommerce-thankyou-order-details.order_details li > span, .woocommerce-order-received .woocommerce-order-overview.woocommerce-thankyou-order-details.order_details li strong > span, .woocommerce-order-received table thead tr td > span, .woocommerce-order-received table tbody tr td > span, .woocommerce-order-received table tfoot tr td > span, .product-filters form > ul li label > span, .single-product #primary .woocommerce-tabs ul li > span, .single-product #primary .woocommerce-tabs ol li > span, .single-product #primary .woocommerce-product-details__short-description > span, .single-product #primary .woocommerce-product-details__short-description ul li > span, .single-product #primary .woocommerce-product-details__short-description ol li > span, .variations th > span, .woocommerce-account .default-block.container .woocommerce nav ul li a > span, .woocommerce-account .woocommerce-shop .default-block#main .woocommerce nav ul li a > span, .woocommerce-shop .woocommerce-account .default-block#main .woocommerce nav ul li a > span, .woocommerce-account .tax-product_cat .default-block#main .woocommerce nav ul li a > span, .tax-product_cat .woocommerce-account .default-block#main .woocommerce nav ul li a > span, .woocommerce-account .single-product .default-block#primary .woocommerce nav ul li a > span, .single-product .woocommerce-account .default-block#primary .woocommerce nav ul li a > span, .woocommerce-account .woocommerce label > span {
-  font-size: 20px;
+p > span,
+.paragraph > span,
+.social-media::before > span,
+.contact__info a > span,
+.contact__form .gform_confirmation_message > span,
+.wyswig-content__wrapper ul li > span,
+.wyswig-content__wrapper ol li > span,
+.text-image-decorated__author > span,
+.single-blog-post__content ul li > span,
+.single-blog-post__content ol li > span,
+.woocommerce-checkout .woocommerce .woocommerce-billing-fields__field-wrapper p label > span,
+.woocommerce-checkout .woocommerce .woocommerce-shipping-fields__field-wrapper p label > span,
+.woocommerce-checkout .woocommerce #order_comments_field label > span,
+.woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table thead tr td > span,
+.woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table tbody tr td > span,
+.woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table tfoot tr td > span,
+.woocommerce-checkout-payment ul li .wc-credit-card-form.wc-payment-form label > span,
+.woocommerce-error li > span,
+.woocommerce-order-received .woocommerce-order-overview.woocommerce-thankyou-order-details.order_details li > span,
+.woocommerce-order-received .woocommerce-order-overview.woocommerce-thankyou-order-details.order_details li strong > span,
+.woocommerce-order-received table thead tr td > span,
+.woocommerce-order-received table tbody tr td > span,
+.woocommerce-order-received table tfoot tr td > span,
+.product-filters form > ul li label > span,
+.single-product #primary .woocommerce-tabs ul li > span,
+.single-product #primary .woocommerce-tabs ol li > span,
+.single-product #primary .woocommerce-product-details__short-description > span,
+.single-product #primary .woocommerce-product-details__short-description ul li > span,
+.single-product #primary .woocommerce-product-details__short-description ol li > span,
+.variations th > span,
+.woocommerce-account .default-block.container .woocommerce nav ul li a > span,
+.woocommerce-account .woocommerce-shop .default-block#main .woocommerce nav ul li a > span,
+.woocommerce-shop .woocommerce-account .default-block#main .woocommerce nav ul li a > span,
+.woocommerce-account .tax-product_cat .default-block#main .woocommerce nav ul li a > span,
+.tax-product_cat .woocommerce-account .default-block#main .woocommerce nav ul li a > span,
+.woocommerce-account .single-product .default-block#primary .woocommerce nav ul li a > span,
+.single-product .woocommerce-account .default-block#primary .woocommerce nav ul li a > span,
+.woocommerce-account .woocommerce label > span {
+  font-size: 19px;
   line-height: 1.65;
   font-weight: 400;
   color: #303030;
   font-family: "Titillium Web", sans-serif;
 }
 
-p.small, .paragraph.small, .small.social-media::before, .small.contact__phone, .small.contact__email, .contact__form .small.gform_confirmation_message, .wyswig-content__wrapper ul li.small, .wyswig-content__wrapper ol li.small, .small.text-image-decorated__author, .single-blog-post__content ul li.small, .single-blog-post__content ol li.small, .woocommerce-checkout .woocommerce .woocommerce-billing-fields__field-wrapper p label.small, .woocommerce-checkout .woocommerce .woocommerce-shipping-fields__field-wrapper p label.small, .woocommerce-checkout .woocommerce #order_comments_field label.small, .woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table thead tr td.small, .woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table tbody tr td.small, .woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table tfoot tr td.small, .woocommerce-checkout-payment ul li .wc-credit-card-form.wc-payment-form label.small, .woocommerce-error li.small, .woocommerce-order-received .woocommerce-order-overview.woocommerce-thankyou-order-details.order_details li.small, .woocommerce-order-received .woocommerce-order-overview.woocommerce-thankyou-order-details.order_details li strong.small, .woocommerce-order-received table thead tr td.small, .woocommerce-order-received table tbody tr td.small, .woocommerce-order-received table tfoot tr td.small, .product-filters form > ul li label.small, .single-product #primary .woocommerce-tabs ul li.small, .single-product #primary .woocommerce-tabs ol li.small, .single-product #primary .small.woocommerce-product-details__short-description, .single-product #primary .woocommerce-product-details__short-description ul li.small, .single-product #primary .woocommerce-product-details__short-description ol li.small, .variations th.small, .woocommerce-account .default-block.container .woocommerce nav ul li a.small, .woocommerce-account .woocommerce-shop .default-block#main .woocommerce nav ul li a.small, .woocommerce-shop .woocommerce-account .default-block#main .woocommerce nav ul li a.small, .woocommerce-account .tax-product_cat .default-block#main .woocommerce nav ul li a.small, .tax-product_cat .woocommerce-account .default-block#main .woocommerce nav ul li a.small, .woocommerce-account .single-product .default-block#primary .woocommerce nav ul li a.small, .single-product .woocommerce-account .default-block#primary .woocommerce nav ul li a.small, .woocommerce-account .woocommerce label.small {
+p.small,
+.paragraph.small,
+.small.social-media::before,
+.contact__info a.small,
+.contact__form .small.gform_confirmation_message,
+.wyswig-content__wrapper ul li.small,
+.wyswig-content__wrapper ol li.small,
+.small.text-image-decorated__author,
+.single-blog-post__content ul li.small,
+.single-blog-post__content ol li.small,
+.woocommerce-checkout .woocommerce .woocommerce-billing-fields__field-wrapper p label.small,
+.woocommerce-checkout .woocommerce .woocommerce-shipping-fields__field-wrapper p label.small,
+.woocommerce-checkout .woocommerce #order_comments_field label.small,
+.woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table thead tr td.small,
+.woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table tbody tr td.small,
+.woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table tfoot tr td.small,
+.woocommerce-checkout-payment ul li .wc-credit-card-form.wc-payment-form label.small,
+.woocommerce-error li.small,
+.woocommerce-order-received .woocommerce-order-overview.woocommerce-thankyou-order-details.order_details li.small,
+.woocommerce-order-received .woocommerce-order-overview.woocommerce-thankyou-order-details.order_details li strong.small,
+.woocommerce-order-received table thead tr td.small,
+.woocommerce-order-received table tbody tr td.small,
+.woocommerce-order-received table tfoot tr td.small,
+.product-filters form > ul li label.small,
+.single-product #primary .woocommerce-tabs ul li.small,
+.single-product #primary .woocommerce-tabs ol li.small,
+.single-product #primary .small.woocommerce-product-details__short-description,
+.single-product #primary .woocommerce-product-details__short-description ul li.small,
+.single-product #primary .woocommerce-product-details__short-description ol li.small,
+.variations th.small,
+.woocommerce-account .default-block.container .woocommerce nav ul li a.small,
+.woocommerce-account .woocommerce-shop .default-block#main .woocommerce nav ul li a.small,
+.woocommerce-shop .woocommerce-account .default-block#main .woocommerce nav ul li a.small,
+.woocommerce-account .tax-product_cat .default-block#main .woocommerce nav ul li a.small,
+.tax-product_cat .woocommerce-account .default-block#main .woocommerce nav ul li a.small,
+.woocommerce-account .single-product .default-block#primary .woocommerce nav ul li a.small,
+.single-product .woocommerce-account .default-block#primary .woocommerce nav ul li a.small,
+.woocommerce-account .woocommerce label.small {
   font-size: 16px;
   line-height: 1.65;
   font-weight: 400;
   color: #303030;
   font-family: "Titillium Web", sans-serif;
-  margin: 20px 0 0;
+  margin: 19px 0 0;
 }
 
-p.small > a, p.small > strong, p.small > span, .paragraph.small > a, .small.social-media::before > a, .small.contact__phone > a, .small.contact__email > a, .contact__form .small.gform_confirmation_message > a, .wyswig-content__wrapper ul li.small > a, .wyswig-content__wrapper ol li.small > a, .small.text-image-decorated__author > a, .single-blog-post__content ul li.small > a, .single-blog-post__content ol li.small > a, .woocommerce-checkout .woocommerce .woocommerce-billing-fields__field-wrapper p label.small > a, .woocommerce-checkout .woocommerce .woocommerce-shipping-fields__field-wrapper p label.small > a, .woocommerce-checkout .woocommerce #order_comments_field label.small > a, .woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table thead tr td.small > a, .woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table tbody tr td.small > a, .woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table tfoot tr td.small > a, .woocommerce-checkout-payment ul li .wc-credit-card-form.wc-payment-form label.small > a, .woocommerce-error li.small > a, .woocommerce-order-received .woocommerce-order-overview.woocommerce-thankyou-order-details.order_details li.small > a, .woocommerce-order-received .woocommerce-order-overview.woocommerce-thankyou-order-details.order_details li strong.small > a, .woocommerce-order-received table thead tr td.small > a, .woocommerce-order-received table tbody tr td.small > a, .woocommerce-order-received table tfoot tr td.small > a, .product-filters form > ul li label.small > a, .single-product #primary .woocommerce-tabs ul li.small > a, .single-product #primary .woocommerce-tabs ol li.small > a, .single-product #primary .small.woocommerce-product-details__short-description > a, .single-product #primary .woocommerce-product-details__short-description ul li.small > a, .single-product #primary .woocommerce-product-details__short-description ol li.small > a, .variations th.small > a, .woocommerce-account .default-block.container .woocommerce nav ul li a.small > a, .woocommerce-account .woocommerce-shop .default-block#main .woocommerce nav ul li a.small > a, .woocommerce-shop .woocommerce-account .default-block#main .woocommerce nav ul li a.small > a, .woocommerce-account .tax-product_cat .default-block#main .woocommerce nav ul li a.small > a, .tax-product_cat .woocommerce-account .default-block#main .woocommerce nav ul li a.small > a, .woocommerce-account .single-product .default-block#primary .woocommerce nav ul li a.small > a, .single-product .woocommerce-account .default-block#primary .woocommerce nav ul li a.small > a, .woocommerce-account .woocommerce label.small > a, .paragraph.small > strong, .small.social-media::before > strong, .small.contact__phone > strong, .small.contact__email > strong, .contact__form .small.gform_confirmation_message > strong, .wyswig-content__wrapper ul li.small > strong, .wyswig-content__wrapper ol li.small > strong, .small.text-image-decorated__author > strong, .single-blog-post__content ul li.small > strong, .single-blog-post__content ol li.small > strong, .woocommerce-checkout .woocommerce .woocommerce-billing-fields__field-wrapper p label.small > strong, .woocommerce-checkout .woocommerce .woocommerce-shipping-fields__field-wrapper p label.small > strong, .woocommerce-checkout .woocommerce #order_comments_field label.small > strong, .woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table thead tr td.small > strong, .woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table tbody tr td.small > strong, .woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table tfoot tr td.small > strong, .woocommerce-checkout-payment ul li .wc-credit-card-form.wc-payment-form label.small > strong, .woocommerce-error li.small > strong, .woocommerce-order-received .woocommerce-order-overview.woocommerce-thankyou-order-details.order_details li.small > strong, .woocommerce-order-received .woocommerce-order-overview.woocommerce-thankyou-order-details.order_details li strong.small > strong, .woocommerce-order-received table thead tr td.small > strong, .woocommerce-order-received table tbody tr td.small > strong, .woocommerce-order-received table tfoot tr td.small > strong, .product-filters form > ul li label.small > strong, .single-product #primary .woocommerce-tabs ul li.small > strong, .single-product #primary .woocommerce-tabs ol li.small > strong, .single-product #primary .small.woocommerce-product-details__short-description > strong, .single-product #primary .woocommerce-product-details__short-description ul li.small > strong, .single-product #primary .woocommerce-product-details__short-description ol li.small > strong, .variations th.small > strong, .woocommerce-account .default-block.container .woocommerce nav ul li a.small > strong, .woocommerce-account .woocommerce-shop .default-block#main .woocommerce nav ul li a.small > strong, .woocommerce-shop .woocommerce-account .default-block#main .woocommerce nav ul li a.small > strong, .woocommerce-account .tax-product_cat .default-block#main .woocommerce nav ul li a.small > strong, .tax-product_cat .woocommerce-account .default-block#main .woocommerce nav ul li a.small > strong, .woocommerce-account .single-product .default-block#primary .woocommerce nav ul li a.small > strong, .single-product .woocommerce-account .default-block#primary .woocommerce nav ul li a.small > strong, .woocommerce-account .woocommerce label.small > strong, .paragraph.small > span, .small.social-media::before > span, .small.contact__phone > span, .small.contact__email > span, .contact__form .small.gform_confirmation_message > span, .wyswig-content__wrapper ul li.small > span, .wyswig-content__wrapper ol li.small > span, .small.text-image-decorated__author > span, .single-blog-post__content ul li.small > span, .single-blog-post__content ol li.small > span, .woocommerce-checkout .woocommerce .woocommerce-billing-fields__field-wrapper p label.small > span, .woocommerce-checkout .woocommerce .woocommerce-shipping-fields__field-wrapper p label.small > span, .woocommerce-checkout .woocommerce #order_comments_field label.small > span, .woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table thead tr td.small > span, .woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table tbody tr td.small > span, .woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table tfoot tr td.small > span, .woocommerce-checkout-payment ul li .wc-credit-card-form.wc-payment-form label.small > span, .woocommerce-error li.small > span, .woocommerce-order-received .woocommerce-order-overview.woocommerce-thankyou-order-details.order_details li.small > span, .woocommerce-order-received .woocommerce-order-overview.woocommerce-thankyou-order-details.order_details li strong.small > span, .woocommerce-order-received table thead tr td.small > span, .woocommerce-order-received table tbody tr td.small > span, .woocommerce-order-received table tfoot tr td.small > span, .product-filters form > ul li label.small > span, .single-product #primary .woocommerce-tabs ul li.small > span, .single-product #primary .woocommerce-tabs ol li.small > span, .single-product #primary .small.woocommerce-product-details__short-description > span, .single-product #primary .woocommerce-product-details__short-description ul li.small > span, .single-product #primary .woocommerce-product-details__short-description ol li.small > span, .variations th.small > span, .woocommerce-account .default-block.container .woocommerce nav ul li a.small > span, .woocommerce-account .woocommerce-shop .default-block#main .woocommerce nav ul li a.small > span, .woocommerce-shop .woocommerce-account .default-block#main .woocommerce nav ul li a.small > span, .woocommerce-account .tax-product_cat .default-block#main .woocommerce nav ul li a.small > span, .tax-product_cat .woocommerce-account .default-block#main .woocommerce nav ul li a.small > span, .woocommerce-account .single-product .default-block#primary .woocommerce nav ul li a.small > span, .single-product .woocommerce-account .default-block#primary .woocommerce nav ul li a.small > span, .woocommerce-account .woocommerce label.small > span {
+p.small > a,
+p.small > strong,
+p.small > span,
+.paragraph.small > a,
+.small.social-media::before > a,
+.contact__info a.small > a,
+.contact__form .small.gform_confirmation_message > a,
+.wyswig-content__wrapper ul li.small > a,
+.wyswig-content__wrapper ol li.small > a,
+.small.text-image-decorated__author > a,
+.single-blog-post__content ul li.small > a,
+.single-blog-post__content ol li.small > a,
+.woocommerce-checkout .woocommerce .woocommerce-billing-fields__field-wrapper p label.small > a,
+.woocommerce-checkout .woocommerce .woocommerce-shipping-fields__field-wrapper p label.small > a,
+.woocommerce-checkout .woocommerce #order_comments_field label.small > a,
+.woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table thead tr td.small > a,
+.woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table tbody tr td.small > a,
+.woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table tfoot tr td.small > a,
+.woocommerce-checkout-payment ul li .wc-credit-card-form.wc-payment-form label.small > a,
+.woocommerce-error li.small > a,
+.woocommerce-order-received .woocommerce-order-overview.woocommerce-thankyou-order-details.order_details li.small > a,
+.woocommerce-order-received .woocommerce-order-overview.woocommerce-thankyou-order-details.order_details li strong.small > a,
+.woocommerce-order-received table thead tr td.small > a,
+.woocommerce-order-received table tbody tr td.small > a,
+.woocommerce-order-received table tfoot tr td.small > a,
+.product-filters form > ul li label.small > a,
+.single-product #primary .woocommerce-tabs ul li.small > a,
+.single-product #primary .woocommerce-tabs ol li.small > a,
+.single-product #primary .small.woocommerce-product-details__short-description > a,
+.single-product #primary .woocommerce-product-details__short-description ul li.small > a,
+.single-product #primary .woocommerce-product-details__short-description ol li.small > a,
+.variations th.small > a,
+.woocommerce-account .default-block.container .woocommerce nav ul li a.small > a,
+.woocommerce-account .woocommerce-shop .default-block#main .woocommerce nav ul li a.small > a,
+.woocommerce-shop .woocommerce-account .default-block#main .woocommerce nav ul li a.small > a,
+.woocommerce-account .tax-product_cat .default-block#main .woocommerce nav ul li a.small > a,
+.tax-product_cat .woocommerce-account .default-block#main .woocommerce nav ul li a.small > a,
+.woocommerce-account .single-product .default-block#primary .woocommerce nav ul li a.small > a,
+.single-product .woocommerce-account .default-block#primary .woocommerce nav ul li a.small > a,
+.woocommerce-account .woocommerce label.small > a,
+.paragraph.small > strong,
+.small.social-media::before > strong,
+.contact__info a.small > strong,
+.contact__form .small.gform_confirmation_message > strong,
+.wyswig-content__wrapper ul li.small > strong,
+.wyswig-content__wrapper ol li.small > strong,
+.small.text-image-decorated__author > strong,
+.single-blog-post__content ul li.small > strong,
+.single-blog-post__content ol li.small > strong,
+.woocommerce-checkout .woocommerce .woocommerce-billing-fields__field-wrapper p label.small > strong,
+.woocommerce-checkout .woocommerce .woocommerce-shipping-fields__field-wrapper p label.small > strong,
+.woocommerce-checkout .woocommerce #order_comments_field label.small > strong,
+.woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table thead tr td.small > strong,
+.woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table tbody tr td.small > strong,
+.woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table tfoot tr td.small > strong,
+.woocommerce-checkout-payment ul li .wc-credit-card-form.wc-payment-form label.small > strong,
+.woocommerce-error li.small > strong,
+.woocommerce-order-received .woocommerce-order-overview.woocommerce-thankyou-order-details.order_details li.small > strong,
+.woocommerce-order-received .woocommerce-order-overview.woocommerce-thankyou-order-details.order_details li strong.small > strong,
+.woocommerce-order-received table thead tr td.small > strong,
+.woocommerce-order-received table tbody tr td.small > strong,
+.woocommerce-order-received table tfoot tr td.small > strong,
+.product-filters form > ul li label.small > strong,
+.single-product #primary .woocommerce-tabs ul li.small > strong,
+.single-product #primary .woocommerce-tabs ol li.small > strong,
+.single-product #primary .small.woocommerce-product-details__short-description > strong,
+.single-product #primary .woocommerce-product-details__short-description ul li.small > strong,
+.single-product #primary .woocommerce-product-details__short-description ol li.small > strong,
+.variations th.small > strong,
+.woocommerce-account .default-block.container .woocommerce nav ul li a.small > strong,
+.woocommerce-account .woocommerce-shop .default-block#main .woocommerce nav ul li a.small > strong,
+.woocommerce-shop .woocommerce-account .default-block#main .woocommerce nav ul li a.small > strong,
+.woocommerce-account .tax-product_cat .default-block#main .woocommerce nav ul li a.small > strong,
+.tax-product_cat .woocommerce-account .default-block#main .woocommerce nav ul li a.small > strong,
+.woocommerce-account .single-product .default-block#primary .woocommerce nav ul li a.small > strong,
+.single-product .woocommerce-account .default-block#primary .woocommerce nav ul li a.small > strong,
+.woocommerce-account .woocommerce label.small > strong,
+.paragraph.small > span,
+.small.social-media::before > span,
+.contact__info a.small > span,
+.contact__form .small.gform_confirmation_message > span,
+.wyswig-content__wrapper ul li.small > span,
+.wyswig-content__wrapper ol li.small > span,
+.small.text-image-decorated__author > span,
+.single-blog-post__content ul li.small > span,
+.single-blog-post__content ol li.small > span,
+.woocommerce-checkout .woocommerce .woocommerce-billing-fields__field-wrapper p label.small > span,
+.woocommerce-checkout .woocommerce .woocommerce-shipping-fields__field-wrapper p label.small > span,
+.woocommerce-checkout .woocommerce #order_comments_field label.small > span,
+.woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table thead tr td.small > span,
+.woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table tbody tr td.small > span,
+.woocommerce-checkout .woocommerce .shop_table.woocommerce-checkout-review-order-table tfoot tr td.small > span,
+.woocommerce-checkout-payment ul li .wc-credit-card-form.wc-payment-form label.small > span,
+.woocommerce-error li.small > span,
+.woocommerce-order-received .woocommerce-order-overview.woocommerce-thankyou-order-details.order_details li.small > span,
+.woocommerce-order-received .woocommerce-order-overview.woocommerce-thankyou-order-details.order_details li strong.small > span,
+.woocommerce-order-received table thead tr td.small > span,
+.woocommerce-order-received table tbody tr td.small > span,
+.woocommerce-order-received table tfoot tr td.small > span,
+.product-filters form > ul li label.small > span,
+.single-product #primary .woocommerce-tabs ul li.small > span,
+.single-product #primary .woocommerce-tabs ol li.small > span,
+.single-product #primary .small.woocommerce-product-details__short-description > span,
+.single-product #primary .woocommerce-product-details__short-description ul li.small > span,
+.single-product #primary .woocommerce-product-details__short-description ol li.small > span,
+.variations th.small > span,
+.woocommerce-account .default-block.container .woocommerce nav ul li a.small > span,
+.woocommerce-account .woocommerce-shop .default-block#main .woocommerce nav ul li a.small > span,
+.woocommerce-shop .woocommerce-account .default-block#main .woocommerce nav ul li a.small > span,
+.woocommerce-account .tax-product_cat .default-block#main .woocommerce nav ul li a.small > span,
+.tax-product_cat .woocommerce-account .default-block#main .woocommerce nav ul li a.small > span,
+.woocommerce-account .single-product .default-block#primary .woocommerce nav ul li a.small > span,
+.single-product .woocommerce-account .default-block#primary .woocommerce nav ul li a.small > span,
+.woocommerce-account .woocommerce label.small > span {
   font-size: 16px;
   line-height: 1.65;
   font-weight: 400;
@@ -2127,23 +2633,26 @@ p.small > a, p.small > strong, p.small > span, .paragraph.small > a, .small.soci
   font-family: "Titillium Web", sans-serif;
 }
 
-ul > li, ol > li {
-  font-size: 20px;
+ul > li,
+ol > li {
+  font-size: 19px;
   line-height: 1.65;
   font-weight: 400;
   font-family: "Titillium Web", sans-serif;
 }
 
-ul > li > strong, ol > li > strong {
+ul > li > strong,
+ol > li > strong {
   font-weight: 600;
-  font-size: 20px;
+  font-size: 19px;
   line-height: 1.65;
   color: #303030;
   font-family: "Titillium Web", sans-serif;
 }
 
-ul > li > span, ol > li > span {
-  font-size: 20px;
+ul > li > span,
+ol > li > span {
+  font-size: 19px;
   line-height: 1.65;
   font-weight: 400;
   color: #303030;
@@ -2348,7 +2857,8 @@ body.page .display-none, body.woocommerce-page .display-none {
   }
 }
 
-ul > li, ol > li {
+ul > li,
+ol > li {
   list-style: none;
 }
 
@@ -4643,17 +5153,13 @@ html::-webkit-scrollbar-thumb {
   position: relative;
 }
 
-.section-title--shop {
-  margin: 90px 0 0;
-}
-
-.section-title h2 {
+.section-title__title {
   color: #303030;
   position: relative;
   padding: 0 0 40px;
 }
 
-.section-title h2::after {
+.section-title__title::after {
   content: '';
   display: block;
   width: 3px;
@@ -4666,12 +5172,21 @@ html::-webkit-scrollbar-thumb {
   bottom: -15px;
 }
 
-.section-title h2 span {
+.section-title__title span {
   color: #f6a520;
   display: block;
   margin: 0 0 4px;
   font-size: 16px;
   text-transform: uppercase;
+}
+
+.section-title__title--left {
+  padding: 0;
+}
+
+.section-title__title--left::after,
+.section-title__title--left span {
+  display: none;
 }
 
 .section-title h3 {
@@ -4681,7 +5196,6 @@ html::-webkit-scrollbar-thumb {
 .section-title p {
   text-transform: initial;
   text-align: left;
-  font-size: 18px;
 }
 
 .section-title p:first-of-type {
@@ -4775,148 +5289,63 @@ html::-webkit-scrollbar-thumb {
   background: #f8f9fc;
 }
 
+.contact__details {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  margin: 3px 0 0;
+}
+
+.contact__info {
+  width: 100%;
+}
+
+.contact__info h1,
+.contact__info h2,
+.contact__info h3,
+.contact__info h4,
+.contact__info h5,
+.contact__info h6 {
+  margin: 17px 0 0;
+}
+
+.contact__info p {
+  margin: 10px 0 0;
+}
+
+.contact__info p br {
+  display: none;
+}
+
+.contact__info a {
+  margin: 10px 0 0px;
+  display: block;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.contact__info a:last-of-type {
+  margin: -5px 0 0;
+}
+
 .contact__image {
   width: 100%;
-  max-width: 350px;
-  height: 300px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-  position: relative;
-  z-index: 3;
-  margin: 20px 0 0 20px;
+  max-width: 230px;
+  height: 230px;
+  -webkit-filter: brightness(0.96);
+          filter: brightness(0.96);
 }
 
-.contact__image img {
-  position: relative;
-  z-index: 2;
-  border: 3px solid #ffffff;
+.contact__bottom-content {
+  margin: 30px 0 0;
+  padding: 30px 0 0;
+  border-top: 1px solid #e0e0e0;
 }
 
-.contact__image-decorator {
-  display: block;
-  content: '';
-  z-index: 1;
-  background: #f6a520;
-  width: 350px;
-  height: 300px;
-  position: absolute;
-  top: -20px;
-  left: -20px;
-}
-
-.contact__subtitle {
-  margin: 20px 0 0;
-}
-
-.contact__details {
+.contact__bottom-content *:first-child {
   margin: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  text-align: left;
-}
-
-@media (max-width: 767px) {
-  .contact__details {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-}
-
-.contact__details > p {
-  margin: 13px 0 0;
-}
-
-.contact__details > p span {
-  font-weight: 600;
-  display: inline-block;
-  position: relative;
-}
-
-.contact__details > p span::after {
-  width: 100%;
-  height: 3px;
-  content: '';
-  display: block;
-  background: #f6a520;
-  position: absolute;
-  bottom: -2px;
-  left: 0;
-}
-
-.contact__phone, .contact__email {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 0;
-  gap: 8px;
-  color: #303030;
-  font-weight: 500;
-}
-
-.contact__phone::before, .contact__email::before {
-  content: '';
-  display: block;
-  -webkit-filter: brightness(0.2);
-          filter: brightness(0.2);
-  position: relative;
-  bottom: -2px;
-}
-
-.contact__phone:hover, .contact__email:hover {
-  color: #303030;
-}
-
-.contact__phone {
-  margin: 20px 0 0;
-}
-
-.contact__phone::before {
-  width: 20px;
-  height: 20px;
-  background: url("./images/phone-icon.svg") center/contain no-repeat;
-}
-
-.contact__email {
-  margin: 5px 0 0;
-}
-
-.contact__email::before {
-  width: 20px;
-  height: 20px;
-  background: url("./images/email-icon.svg") center/contain no-repeat;
-}
-
-.contact__social-media {
-  margin: 10px 0 0;
-}
-
-.contact__address {
-  margin: 10px 0 0;
-}
-
-.contact__address p {
-  margin: 0;
-}
-
-@media (max-width: 767px) {
-  .contact__address p {
-    text-align: center;
-  }
 }
 
 .contact__form {
@@ -4958,13 +5387,15 @@ html::-webkit-scrollbar-thumb {
   margin: -20px 0 0;
 }
 
-.contact__form form .gform_body .gform_fields p, .contact__form form .gform_body .gform_fields label {
+.contact__form form .gform_body .gform_fields p,
+.contact__form form .gform_body .gform_fields label {
   margin: 0;
   font-size: 15px;
   color: #313131;
 }
 
-.contact__form form .gform_body .gform_fields p a, .contact__form form .gform_body .gform_fields label a {
+.contact__form form .gform_body .gform_fields p a,
+.contact__form form .gform_body .gform_fields label a {
   color: #f6a520;
   text-decoration: underline;
   font-weight: 400;
@@ -4999,6 +5430,7 @@ html::-webkit-scrollbar-thumb {
 .map {
   width: 100%;
   position: relative;
+  margin: 0 0 -70px;
 }
 
 .map--background {
@@ -5039,6 +5471,7 @@ html::-webkit-scrollbar-thumb {
   top: 0;
   right: 0;
   z-index: 1;
+  background: #303030;
 }
 
 .subpage-hero__background img {
@@ -5046,6 +5479,7 @@ html::-webkit-scrollbar-thumb {
      object-position: center left;
   -webkit-filter: brightness(0.9);
           filter: brightness(0.9);
+  display: none;
 }
 
 .subpage-hero__background--plain {
@@ -5061,7 +5495,8 @@ html::-webkit-scrollbar-thumb {
   bottom: 0;
   left: 0;
   z-index: 0;
-  background: linear-gradient(61deg, #1c1e2b 0%, rgba(28, 30, 43, 0.7) 23%, rgba(28, 30, 43, 0.5) 48%, rgba(28, 30, 43, 0.2) 89%, rgba(28, 30, 43, 0.1) 100%);
+  background: linear-gradient(61deg, rgba(37, 37, 37, 0.4) 0%, rgba(39, 39, 39, 0.5) 23%, rgba(40, 40, 40, 0.4) 48%, rgba(50, 50, 50, 0.4) 89%, rgba(60, 60, 60, 0.35) 100%);
+  display: none;
 }
 
 .subpage-hero__wrapper {
@@ -5081,7 +5516,7 @@ html::-webkit-scrollbar-thumb {
   position: relative;
   z-index: 2;
   text-align: center;
-  padding: 60px 0;
+  padding: 35px 0 40px;
 }
 
 @media (max-width: 767px) {

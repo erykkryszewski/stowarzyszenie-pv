@@ -1313,7 +1313,11 @@
   }
 }
 
-.editor-styles-wrapper h1, .editor-styles-wrapper .h1, .editor-styles-wrapper h1 > strong, .editor-styles-wrapper h1 > b, .editor-styles-wrapper h1 > span {
+.editor-styles-wrapper h1,
+.editor-styles-wrapper .h1,
+.editor-styles-wrapper h1 > strong,
+.editor-styles-wrapper h1 > b,
+.editor-styles-wrapper h1 > span {
   color: #303030;
   font-family: "Oswald", sans-serif;
   font-size: 64px;
@@ -1322,18 +1326,30 @@
 }
 
 @media (max-width: 1199px) {
-  .editor-styles-wrapper h1, .editor-styles-wrapper .h1, .editor-styles-wrapper h1 > strong, .editor-styles-wrapper h1 > b, .editor-styles-wrapper h1 > span {
+  .editor-styles-wrapper h1,
+  .editor-styles-wrapper .h1,
+  .editor-styles-wrapper h1 > strong,
+  .editor-styles-wrapper h1 > b,
+  .editor-styles-wrapper h1 > span {
     font-size: 61px;
   }
 }
 
 @media (max-width: 767px) {
-  .editor-styles-wrapper h1, .editor-styles-wrapper .h1, .editor-styles-wrapper h1 > strong, .editor-styles-wrapper h1 > b, .editor-styles-wrapper h1 > span {
+  .editor-styles-wrapper h1,
+  .editor-styles-wrapper .h1,
+  .editor-styles-wrapper h1 > strong,
+  .editor-styles-wrapper h1 > b,
+  .editor-styles-wrapper h1 > span {
     font-size: 58px;
   }
 }
 
-.editor-styles-wrapper h2, .editor-styles-wrapper .h2, .editor-styles-wrapper h2 > strong, .editor-styles-wrapper h2 > b, .editor-styles-wrapper h2 > span {
+.editor-styles-wrapper h2,
+.editor-styles-wrapper .h2,
+.editor-styles-wrapper h2 > strong,
+.editor-styles-wrapper h2 > b,
+.editor-styles-wrapper h2 > span {
   color: #303030;
   font-family: "Oswald", sans-serif;
   font-size: 45px;
@@ -1342,12 +1358,20 @@
 }
 
 @media (max-width: 1199px) {
-  .editor-styles-wrapper h2, .editor-styles-wrapper .h2, .editor-styles-wrapper h2 > strong, .editor-styles-wrapper h2 > b, .editor-styles-wrapper h2 > span {
+  .editor-styles-wrapper h2,
+  .editor-styles-wrapper .h2,
+  .editor-styles-wrapper h2 > strong,
+  .editor-styles-wrapper h2 > b,
+  .editor-styles-wrapper h2 > span {
     font-size: 30px;
   }
 }
 
-.editor-styles-wrapper h3, .editor-styles-wrapper .h3, .editor-styles-wrapper h3 > strong, .editor-styles-wrapper h3 > b, .editor-styles-wrapper h3 > span {
+.editor-styles-wrapper h3,
+.editor-styles-wrapper .h3,
+.editor-styles-wrapper h3 > strong,
+.editor-styles-wrapper h3 > b,
+.editor-styles-wrapper h3 > span {
   color: #303030;
   font-family: "Oswald", sans-serif;
   font-size: 24px;
@@ -1356,12 +1380,20 @@
 }
 
 @media (max-width: 1199px) {
-  .editor-styles-wrapper h3, .editor-styles-wrapper .h3, .editor-styles-wrapper h3 > strong, .editor-styles-wrapper h3 > b, .editor-styles-wrapper h3 > span {
+  .editor-styles-wrapper h3,
+  .editor-styles-wrapper .h3,
+  .editor-styles-wrapper h3 > strong,
+  .editor-styles-wrapper h3 > b,
+  .editor-styles-wrapper h3 > span {
     font-size: 22px;
   }
 }
 
-.editor-styles-wrapper h4, .editor-styles-wrapper .h4, .editor-styles-wrapper h4 > strong, .editor-styles-wrapper h4 > b, .editor-styles-wrapper h4 > span {
+.editor-styles-wrapper h4,
+.editor-styles-wrapper .h4,
+.editor-styles-wrapper h4 > strong,
+.editor-styles-wrapper h4 > b,
+.editor-styles-wrapper h4 > span {
   color: #303030;
   font-family: "Oswald", sans-serif;
   font-size: 21px;
@@ -1370,23 +1402,29 @@
 }
 
 @media (max-width: 1199px) {
-  .editor-styles-wrapper h4, .editor-styles-wrapper .h4, .editor-styles-wrapper h4 > strong, .editor-styles-wrapper h4 > b, .editor-styles-wrapper h4 > span {
-    font-size: 20px;
+  .editor-styles-wrapper h4,
+  .editor-styles-wrapper .h4,
+  .editor-styles-wrapper h4 > strong,
+  .editor-styles-wrapper h4 > b,
+  .editor-styles-wrapper h4 > span {
+    font-size: 19px;
   }
 }
 
-.editor-styles-wrapper p, .editor-styles-wrapper .paragraph {
-  font-size: 20px;
+.editor-styles-wrapper p,
+.editor-styles-wrapper .paragraph {
+  font-size: 19px;
   line-height: 1.65;
   font-weight: 400;
-  margin: 20px 0 0;
+  margin: 19px 0 0;
   color: #303030;
   font-family: "Titillium Web", sans-serif;
 }
 
-.editor-styles-wrapper p > a, .editor-styles-wrapper .paragraph > a {
+.editor-styles-wrapper p > a,
+.editor-styles-wrapper .paragraph > a {
   font-weight: 500;
-  font-size: 20px;
+  font-size: 19px;
   line-height: 1.65;
   text-decoration: underline;
   display: inline-block;
@@ -1394,37 +1432,46 @@
   font-family: "Titillium Web", sans-serif;
 }
 
-.editor-styles-wrapper p > a:hover, .editor-styles-wrapper .paragraph > a:hover {
+.editor-styles-wrapper p > a:hover,
+.editor-styles-wrapper .paragraph > a:hover {
   text-decoration: underline;
   color: #303030;
 }
 
-.editor-styles-wrapper p > strong, .editor-styles-wrapper .paragraph > strong {
+.editor-styles-wrapper p > strong,
+.editor-styles-wrapper .paragraph > strong {
   font-weight: 600;
-  font-size: 20px;
+  font-size: 19px;
   line-height: 1.65;
   color: #303030;
   font-family: "Titillium Web", sans-serif;
 }
 
-.editor-styles-wrapper p > span, .editor-styles-wrapper .paragraph > span {
-  font-size: 20px;
+.editor-styles-wrapper p > span,
+.editor-styles-wrapper .paragraph > span {
+  font-size: 19px;
   line-height: 1.65;
   font-weight: 400;
   color: #303030;
   font-family: "Titillium Web", sans-serif;
 }
 
-.editor-styles-wrapper p.small, .editor-styles-wrapper .paragraph.small {
+.editor-styles-wrapper p.small,
+.editor-styles-wrapper .paragraph.small {
   font-size: 16px;
   line-height: 1.65;
   font-weight: 400;
   color: #303030;
   font-family: "Titillium Web", sans-serif;
-  margin: 20px 0 0;
+  margin: 19px 0 0;
 }
 
-.editor-styles-wrapper p.small > a, .editor-styles-wrapper p.small > strong, .editor-styles-wrapper p.small > span, .editor-styles-wrapper .paragraph.small > a, .editor-styles-wrapper .paragraph.small > strong, .editor-styles-wrapper .paragraph.small > span {
+.editor-styles-wrapper p.small > a,
+.editor-styles-wrapper p.small > strong,
+.editor-styles-wrapper p.small > span,
+.editor-styles-wrapper .paragraph.small > a,
+.editor-styles-wrapper .paragraph.small > strong,
+.editor-styles-wrapper .paragraph.small > span {
   font-size: 16px;
   line-height: 1.65;
   font-weight: 400;
@@ -1432,23 +1479,26 @@
   font-family: "Titillium Web", sans-serif;
 }
 
-.editor-styles-wrapper ul > li, .editor-styles-wrapper ol > li {
-  font-size: 20px;
+.editor-styles-wrapper ul > li,
+.editor-styles-wrapper ol > li {
+  font-size: 19px;
   line-height: 1.65;
   font-weight: 400;
   font-family: "Titillium Web", sans-serif;
 }
 
-.editor-styles-wrapper ul > li > strong, .editor-styles-wrapper ol > li > strong {
+.editor-styles-wrapper ul > li > strong,
+.editor-styles-wrapper ol > li > strong {
   font-weight: 600;
-  font-size: 20px;
+  font-size: 19px;
   line-height: 1.65;
   color: #303030;
   font-family: "Titillium Web", sans-serif;
 }
 
-.editor-styles-wrapper ul > li > span, .editor-styles-wrapper ol > li > span {
-  font-size: 20px;
+.editor-styles-wrapper ul > li > span,
+.editor-styles-wrapper ol > li > span {
+  font-size: 19px;
   line-height: 1.65;
   font-weight: 400;
   color: #303030;
