@@ -3402,8 +3402,8 @@ html::-webkit-scrollbar-thumb {
   display: flex;
   gap: 8px;
   color: #303030;
-  font-size: 15px;
-  font-weight: 500;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .top-bar__phone::before, .top-bar__email::before, .top-bar__panel::before {
