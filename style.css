@@ -2058,6 +2058,7 @@ h1 > span {
 h2,
 .h2,
 .text-with-image__title,
+.subpage-hero__title,
 .thank-you__title,
 .text-image-decorated__content p,
 h2 > strong,
@@ -2074,6 +2075,7 @@ h2 > span {
   h2,
   .h2,
   .text-with-image__title,
+  .subpage-hero__title,
   .thank-you__title,
   .text-image-decorated__content p,
   h2 > strong,
@@ -5184,8 +5186,7 @@ html::-webkit-scrollbar-thumb {
   padding: 0;
 }
 
-.section-title__title--left::after,
-.section-title__title--left span {
+.section-title__title--left::after {
   display: none;
 }
 
@@ -5193,24 +5194,25 @@ html::-webkit-scrollbar-thumb {
   padding: 15px 0 0;
 }
 
-.section-title p {
-  text-transform: initial;
-  text-align: left;
-}
-
-.section-title p:first-of-type {
-  margin: 15px 0 0;
-}
-
-.section-title p span {
-  color: #f6a520;
-  font-weight: 600;
-  font-size: 25px;
-}
-
 .section-title__wrapper {
   width: 100%;
   position: relative;
+}
+
+.section-title__wrapper p {
+  text-transform: initial;
+  text-align: left;
+  max-width: 800px;
+}
+
+.section-title__wrapper p:first-of-type {
+  margin: 15px 0 0;
+}
+
+.section-title__wrapper p span {
+  color: #f6a520;
+  font-weight: 600;
+  font-size: 25px;
 }
 
 .section-title__wrapper--centered {
@@ -5219,6 +5221,7 @@ html::-webkit-scrollbar-thumb {
 
 .section-title__wrapper--centered p {
   text-align: center;
+  max-width: 950px;
   margin: 35px auto 0 !important;
 }
 
@@ -7785,7 +7788,7 @@ body.admin-bar .header--fixed {
     -webkit-transition: all 350ms ease;
     transition: all 350ms ease;
     position: absolute;
-    top: 68px;
+    top: 67px;
     background: #f6a520;
     padding: 0;
     left: 5px;
