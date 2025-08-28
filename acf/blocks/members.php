@@ -22,10 +22,8 @@ if ($members_type == 'regular') {
   <div class="section-id" id="<?php echo esc_html($section_id); ?>"></div>
   <?php endif; ?>
   <div class="container">
-
-
     <?php foreach ($items as $key => $item): ?>
-    <div class="row">
+    <div class="row members__row">
       <?php if (!empty($item['logo'])): ?>
       <div class="col-12 col-md-5 col-lg-3">
         <div class="members__logo">
@@ -35,17 +33,14 @@ if ($members_type == 'regular') {
       <?php endif; ?>
 
       <div class="col-12 col-md-7 col-lg-9">
-        <?php if (!empty($content)): ?>
+        <?php if (!empty($item['text'])): ?>
         <div class="members__content">
-          <?php echo apply_filters('the_title', $content); ?>
+          <?php echo apply_filters('the_title', $item['text']); ?>
         </div>
         <?php endif; ?>
       </div>
     </div>
     <?php endforeach; ?>
-
-
-
   </div>
 </section>
 <?php endif; ?>

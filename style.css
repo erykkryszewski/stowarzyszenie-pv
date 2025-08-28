@@ -7474,6 +7474,44 @@ html::-webkit-scrollbar-thumb {
   width: 100%;
 }
 
+.members__content {
+  padding-bottom: 25px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.members__content p {
+  font-size: 19px !important;
+  line-height: 1.65 !important;
+  font-weight: 400 !important;
+  margin: 0px 0 20px !important;
+  color: #303030 !important;
+  font-family: "Titillium Web", sans-serif !important;
+}
+
+.members__content a {
+  font-weight: 500 !important;
+  font-size: 19px !important;
+  line-height: 1.65 !important;
+  text-decoration: none !important;
+  display: inline-block !important;
+  color: #303030 !important;
+  font-family: "Titillium Web", sans-serif !important;
+}
+
+.members__content a:hover {
+  text-decoration: none !important;
+  color: #303030 !important;
+}
+
+.members__content strong {
+  font-weight: 600 !important;
+  font-size: 19px !important;
+  line-height: 1.65 !important;
+  color: #303030 !important;
+  font-family: "Titillium Web", sans-serif !important;
+}
+
 .header {
   z-index: 20;
   position: absolute;
