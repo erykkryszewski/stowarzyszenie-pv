@@ -7462,6 +7462,14 @@ html::-webkit-scrollbar-thumb {
   height: 80px;
 }
 
+.report {
+  width: 100%;
+}
+
+.report--background {
+  background: #f8f9fc;
+}
+
 .header {
   z-index: 20;
   position: absolute;
@@ -7777,7 +7785,7 @@ body.admin-bar .header--fixed {
 
 .nav__menu > li > ul.sub-menu {
   display: block;
-  min-width: 320px;
+  min-width: 220px;
   /* submenu other styles */
 }
 
@@ -7926,7 +7934,7 @@ body.admin-bar .header--fixed {
 .footer {
   background: #303030;
   width: 100%;
-  margin: 70px 0 0;
+  margin: 80px 0 0;
 }
 
 .footer--homepage {
@@ -8012,13 +8020,19 @@ body.admin-bar .header--fixed {
   width: 100%;
 }
 
-.footer__column h1, .footer__column h2, .footer__column h3, .footer__column h4 {
+.footer__column h1,
+.footer__column h2,
+.footer__column h3,
+.footer__column h4 {
   margin: 3px 0 0;
   color: #ffffff;
 }
 
 @media (max-width: 767px) {
-  .footer__column h1, .footer__column h2, .footer__column h3, .footer__column h4 {
+  .footer__column h1,
+  .footer__column h2,
+  .footer__column h3,
+  .footer__column h4 {
     margin: 25px 0 0;
   }
 }
