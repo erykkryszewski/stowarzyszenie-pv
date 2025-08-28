@@ -27,10 +27,24 @@ $page_title = wp_strip_all_tags(end($title_parts));
   <div class="section-title">
     <div class="container">
       <div class="section-title__wrapper section-title__wrapper--decorated">
-        <h2 class="section-title__title section-title__title--left"><span>Lorem ipsum</span>Dolor sit amet consectetur.
+        <?php if (is_category('strefa-wiedzy') || has_term('strefa-wiedzy', 'category')): ?>
+        <h2 class="section-title__title section-title__title--left"><span>Baza wiedzy</span>Analizy i opracowania
+          ekspertów</h2>
+        <p>Znajdziesz tu raporty, prognozy i komentarze tworzone przez specjalistów PSF – źródło sprawdzonych informacji
+          o rynku PV i transformacji energetycznej.</p>
+        <?php elseif (is_category('aktualnosci') || has_term('aktualnosci', 'category')): ?>
+        <h2 class="section-title__title section-title__title--left"><span>Na bieżąco</span>Aktualności z branży PV</h2>
+        <p>Najważniejsze informacje o regulacjach, działaniach PSF i trendach rynkowych – śledź zmiany, które wpływają
+          na przyszłość fotowoltaiki.</p>
+        <?php elseif (is_category('video') || has_term('video', 'category')): ?>
+        <h2 class="section-title__title section-title__title--left"><span>Multimedia</span>Strefa Video
         </h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur accusantium explicabo odit sunt ipsum
-          voluptas animi, ratione error sequi similique?</p>
+        <p>Wywiady, relacje i nagrania z wydarzeń – zobacz, jak PSF kształtuje przyszłość fotowoltaiki w Polsce i
+          Europie.</p>
+        <?php else: ?>
+        <h2 class="section-title__title section-title__title--left"><span>PSF</span>Informacje ze świata fotowoltaiki
+        </h2>
+        <?php endif; ?>
       </div>
     </div>
   </div>

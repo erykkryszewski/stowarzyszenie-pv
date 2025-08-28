@@ -7470,6 +7470,10 @@ html::-webkit-scrollbar-thumb {
   background: #f8f9fc;
 }
 
+.members {
+  width: 100%;
+}
+
 .header {
   z-index: 20;
   position: absolute;

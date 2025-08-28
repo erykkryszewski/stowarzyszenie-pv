@@ -263,4 +263,10 @@ return [
     'category' => 'ercodingtheme',
     'align' => 'full',
   ],
+
+  'members' => [
+    'title' => __('Members', 'ercodingtheme'),
+    'category' => 'ercodingtheme',
+    'align' => 'full',
+  ],
 ];
