@@ -33,18 +33,12 @@
     }
 
     img {
-      object-position: center left;
-    }
-
-    &--reverse {
-      img {
-        object-position: 0 -40px;
-        filter: brightness(0.98);
-      }
+      object-position: top;
+      filter: brightness(0.98);
     }
 
     &--small {
-      height: 250px;
+      height: 270px;
 
       @media (max-width: 767px) {
         margin: 30px 0 0;

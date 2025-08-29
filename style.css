@@ -4999,19 +4999,14 @@ html::-webkit-scrollbar-thumb {
 }
 
 .text-with-image__picture img {
-  -o-object-position: center left;
-     object-position: center left;
-}
-
-.text-with-image__picture--reverse img {
-  -o-object-position: 0 -40px;
-     object-position: 0 -40px;
+  -o-object-position: top;
+     object-position: top;
   -webkit-filter: brightness(0.98);
           filter: brightness(0.98);
 }
 
 .text-with-image__picture--small {
-  height: 250px;
+  height: 270px;
 }
 
 @media (max-width: 767px) {
