@@ -981,13 +981,6 @@
   font-family: "Oswald", sans-serif;
 }
 
-@media (max-width: 449px) {
-  .editor-styles-wrapper .button {
-    padding: 11px 18px;
-    font-size: 15px;
-  }
-}
-
 .editor-styles-wrapper .button:hover {
   color: #ffffff;
   border: 1px solid #f6a520;

@@ -3026,13 +3026,6 @@ ol > li {
   font-family: "Oswald", sans-serif;
 }
 
-@media (max-width: 449px) {
-  .button, .cta .mailchimp-newsletter__form input[type='submit'], .woocommerce-checkout .woocommerce #ship-to-different-address label::after {
-    padding: 11px 18px;
-    font-size: 15px;
-  }
-}
-
 .button:hover, .cta .mailchimp-newsletter__form input:hover[type='submit'], .woocommerce-checkout .woocommerce #ship-to-different-address label:hover::after {
   color: #ffffff;
   border: 1px solid #f6a520;
