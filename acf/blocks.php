@@ -269,4 +269,10 @@ return [
     'category' => 'ercodingtheme',
     'align' => 'full',
   ],
+
+  'five-boxes' => [
+    'title' => __('Five boxes', 'ercodingtheme'),
+    'category' => 'ercodingtheme',
+    'align' => 'full',
+  ],
 ];

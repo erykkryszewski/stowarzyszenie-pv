@@ -7461,6 +7461,69 @@ html::-webkit-scrollbar-thumb {
   font-family: "Titillium Web", sans-serif !important;
 }
 
+.five-boxes {
+  width: 100%;
+}
+
+.five-boxes__wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+
+@media (max-width: 1199px) {
+  .five-boxes__wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+.five-boxes__item {
+  position: relative;
+  width: auto;
+  min-width: 220px;
+  padding: 20px;
+  min-height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.five-boxes__image {
+  z-index: 1;
+}
+
+.five-boxes__overlay {
+  z-index: 2;
+  background: #303030;
+  opacity: 0.92;
+}
+
+.five-boxes__content {
+  position: relative;
+  z-index: 3;
+}
+
+.five-boxes__content * {
+  color: #ffffff;
+}
+
+.five-boxes__link {
+  z-index: 4;
+}
+
 .header {
   z-index: 20;
   position: absolute;
