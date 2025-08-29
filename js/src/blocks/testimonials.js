@@ -1,79 +1,65 @@
-import $ from 'jquery'
-import { gsap } from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import $ from 'jquery';
 
-gsap.registerPlugin(ScrollTrigger)
-
-$(document).ready(function() {
+$(document).ready(function () {
   if ($('.testimonials__slider')) {
     $('.testimonials__slider').slick({
       dots: true,
       arrows: false,
       infinite: true,
       speed: 550,
-      slidesToShow: 1,
+      slidesToShow: 2,
       slidesToScroll: 1,
-      autoplay: false,
+      autoplay: true,
       autoplaySpeed: 5000,
       cssEase: 'ease-out',
       infinite: true,
-      fade: true,
       responsive: [
         {
           breakpoint: 1100,
           settings: {
-            slidesToShow: 1
-          }
+            slidesToShow: 2,
+          },
         },
         {
           breakpoint: 700,
           settings: {
-            slidesToShow: 1
-          }
-        }
-      ]
-    })
-    $(".slick-prev").text("")
-    $(".slick-next").text("")
-    $("ul.slick-dots > li > button").text("")
-    ScrollTrigger.matchMedia({
-      "(min-width: 768px)": function() {
-        gsap.fromTo(
-          ".testimonials__image-decorator",
-          { left: 0, top: 0, opacity: 0 },
-          {
-            left: -30,
-            top: -30,
-            opacity: 1,
-            duration: 1.5,
-            ease: "power2.out",
-            scrollTrigger: {
-              trigger: ".testimonials__slider",
-              start: "top 70%",
-              toggleActions: "play none none none",
-              // markers: true
-            }
-          }
-        )
-      },
-      "(max-width: 767px)": function() {
-        gsap.fromTo(
-          ".testimonials__image-decorator",
-          { left: 0, top: 0, opacity: 0 },
-          {
-            left: -15,
-            top: -15,
-            opacity: 1,
-            duration: 1.5,
-            ease: "power2.out",
-            scrollTrigger: {
-              trigger: ".testimonials__slider",
-              start: "top 80%",
-              toggleActions: "play none none none"
-            }
-          }
-        )
-      }
-    })
+            slidesToShow: 1,
+          },
+        },
+      ],
+    });
+
+    $('.slick-prev').text('');
+    $('.slick-next').text('');
+    $('ul.slick-dots > li > button').text('');
   }
-})
+});
+
+// hide testimonials if not filled
+
+$(document).ready(function () {
+  if ($('.testimonials--hidden').length && !$('body').hasClass('block-editor-page')) {
+    const testimonialsSection = $('.testimonials--hidden');
+    testimonialsSection.hide();
+
+    const prev1 = testimonialsSection.prev();
+    if (prev1.hasClass('default-block')) {
+      prev1.hide();
+      const prev2 = prev1.prev();
+      if (prev2.hasClass('section-title')) {
+        prev2.hide();
+      }
+    } else if (prev1.hasClass('section-title')) {
+      prev1.hide();
+      const prev2 = prev1.prev();
+      if (prev2.hasClass('default-block') && prev2.hasClass('container-fluid')) {
+        prev2.hide();
+      }
+    }
+
+    const next1 = testimonialsSection.next();
+    if (next1.hasClass('default-block')) {
+      next1.hide();
+    }
+  }
+});

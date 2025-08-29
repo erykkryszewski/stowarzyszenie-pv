@@ -127,6 +127,7 @@
                 "id": ""
             },
             "choices": {
+                "small": "small",
                 "normal": "normal",
                 "big": "big"
             },
@@ -247,5 +248,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1717019002
+    "modified": 1756456373
 }

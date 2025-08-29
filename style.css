@@ -2057,7 +2057,6 @@ h1 > span {
 
 h2,
 .h2,
-.text-with-image__title,
 .subpage-hero__title,
 .thank-you__title,
 .text-image-decorated__content p,
@@ -2074,7 +2073,6 @@ h2 > span {
 @media (max-width: 1199px) {
   h2,
   .h2,
-  .text-with-image__title,
   .subpage-hero__title,
   .thank-you__title,
   .text-image-decorated__content p,
@@ -2088,7 +2086,7 @@ h2 > span {
 h3,
 .h3,
 .numbers__title,
-.testimonials__name,
+.text-with-image__title,
 .motto-bar__content p,
 .counter__content p,
 .counter__content p span .counter__item,
@@ -2121,7 +2119,7 @@ h3 > span {
   h3,
   .h3,
   .numbers__title,
-  .testimonials__name,
+  .text-with-image__title,
   .motto-bar__content p,
   .counter__content p,
   .counter__content p span .counter__item,
@@ -3005,7 +3003,7 @@ ol > li {
   display: block;
 }
 
-.button, .cta .mailchimp-newsletter__form input[type="submit"], .woocommerce-checkout .woocommerce #ship-to-different-address label::after {
+.button, .cta .mailchimp-newsletter__form input[type='submit'], .woocommerce-checkout .woocommerce #ship-to-different-address label::after {
   border: 1px solid #f6a520;
   padding: 15px 20px;
   font-size: 18px;
@@ -3029,19 +3027,19 @@ ol > li {
 }
 
 @media (max-width: 449px) {
-  .button, .cta .mailchimp-newsletter__form input[type="submit"], .woocommerce-checkout .woocommerce #ship-to-different-address label::after {
+  .button, .cta .mailchimp-newsletter__form input[type='submit'], .woocommerce-checkout .woocommerce #ship-to-different-address label::after {
     padding: 11px 18px;
     font-size: 15px;
   }
 }
 
-.button:hover, .cta .mailchimp-newsletter__form input:hover[type="submit"], .woocommerce-checkout .woocommerce #ship-to-different-address label:hover::after {
+.button:hover, .cta .mailchimp-newsletter__form input:hover[type='submit'], .woocommerce-checkout .woocommerce #ship-to-different-address label:hover::after {
   color: #ffffff;
   border: 1px solid #f6a520;
   background: #f6a520;
 }
 
-.button:hover::after, .cta .mailchimp-newsletter__form input[type="submit"]:hover::after, .woocommerce-checkout .woocommerce #ship-to-different-address label:hover::after {
+.button:hover::after, .cta .mailchimp-newsletter__form input[type='submit']:hover::after, .woocommerce-checkout .woocommerce #ship-to-different-address label:hover::after {
   content: '';
   position: absolute;
   top: 0;
@@ -3131,12 +3129,12 @@ ol > li {
   font-size: 19px;
 }
 
-.button.single_add_to_cart_button, .cta .mailchimp-newsletter__form input.single_add_to_cart_button[type="submit"], .woocommerce-checkout .woocommerce #ship-to-different-address label.single_add_to_cart_button::after {
+.button.single_add_to_cart_button, .cta .mailchimp-newsletter__form input.single_add_to_cart_button[type='submit'], .woocommerce-checkout .woocommerce #ship-to-different-address label.single_add_to_cart_button::after {
   margin: 0;
   height: 48px;
 }
 
-.button.acf-button, .cta .mailchimp-newsletter__form input.acf-button[type="submit"], .woocommerce-checkout .woocommerce #ship-to-different-address label.acf-button::after {
+.button.acf-button, .cta .mailchimp-newsletter__form input.acf-button[type='submit'], .woocommerce-checkout .woocommerce #ship-to-different-address label.acf-button::after {
   background: #f6f7f7 !important;
   padding: 0 10px !important;
   color: #2271b1 !important;
@@ -4532,7 +4530,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .cta--subpage {
-  margin: 0 0 -70px;
+  margin: 0 0 -80px;
 }
 
 .cta__background {
@@ -4577,7 +4575,8 @@ html::-webkit-scrollbar-thumb {
   margin: 10px 0 0;
 }
 
-.cta__title, .cta__subtitle, .cta p {
+.cta__title, .cta__subtitle,
+.cta p {
   color: #303030;
 }
 
@@ -4593,15 +4592,15 @@ html::-webkit-scrollbar-thumb {
 
 .cta__button {
   margin: 35px 0 0;
-  background: #f6a520;
-  color: #000000;
-  border: 1px solid #f6a520;
+  background: #303030;
+  color: #ffffff;
+  border: 2px solid #303030;
 }
 
 .cta__button:hover {
-  background: #f6a520;
-  color: #000000;
-  border: 1px solid #f6a520;
+  background: #303030;
+  color: #ffffff;
+  border: 2px solid #303030;
 }
 
 .cta--started img {
@@ -4619,24 +4618,24 @@ html::-webkit-scrollbar-thumb {
   gap: 15px;
 }
 
-.cta .mailchimp-newsletter__form input[type="email"] {
+.cta .mailchimp-newsletter__form input[type='email'] {
   min-width: 280px;
   text-align: center;
   height: 51px;
 }
 
 @media (max-width: 767px) {
-  .cta .mailchimp-newsletter__form input[type="email"] {
+  .cta .mailchimp-newsletter__form input[type='email'] {
     min-width: 150px;
   }
 }
 
-.cta .mailchimp-newsletter__form input[type="submit"] {
+.cta .mailchimp-newsletter__form input[type='submit'] {
   background: #303030;
   border: 1px solid #303030;
 }
 
-.cta .mailchimp-newsletter__form input[type="submit"]:hover {
+.cta .mailchimp-newsletter__form input[type='submit']:hover {
   background: #303030;
   border: 1px solid #303030;
 }
@@ -4680,115 +4679,46 @@ html::-webkit-scrollbar-thumb {
   background: #f8f9fc;
 }
 
-.testimonials__item {
-  position: relative;
-  width: 100%;
-}
-
-.testimonials__item::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  z-index: 2;
-  background: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(40%, rgba(255, 255, 255, 0))), -webkit-gradient(linear, left bottom, left top, from(white), color-stop(40%, rgba(255, 255, 255, 0)));
-  background: linear-gradient(to bottom, white 0%, rgba(255, 255, 255, 0) 40%), linear-gradient(to top, white 0%, rgba(255, 255, 255, 0) 40%);
-  background-repeat: no-repeat;
-}
-
-.testimonials__item::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  z-index: 2;
-  background: -webkit-gradient(linear, left top, right top, from(white), color-stop(20%, rgba(255, 255, 255, 0))), -webkit-gradient(linear, right top, left top, from(white), color-stop(20%, rgba(255, 255, 255, 0)));
-  background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 20%), linear-gradient(to left, white 0%, rgba(255, 255, 255, 0) 20%);
-  background-repeat: no-repeat;
-}
-
-.testimonials__pattern {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  z-index: 1;
-}
-
-.testimonials__pattern svg {
-  display: block;
-  width: 100%;
-  height: 100%;
-}
-
 .testimonials__wrapper {
   width: 100%;
   max-width: 100%;
   overflow: hidden;
+}
+
+.testimonials__item {
   position: relative;
+  font-style: italic;
+  font-size: 17px;
+}
+
+.testimonials__item::before {
+  content: '';
+  display: block;
+  margin: 0;
+  padding: 0;
+  top: -5px;
+  left: 0px;
+  background: url("./images/quote.png") center/contain no-repeat;
+  height: 64px;
+  width: 64px;
+  z-index: 1;
+  position: absolute;
+  opacity: 0.05;
 }
 
 .testimonials__title {
   text-align: center;
+  position: relative;
+  z-index: 2;
 }
 
 .testimonials__image {
-  width: 100%;
-  max-width: 400px;
-  height: 400px;
+  width: 80px;
+  height: 80px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
   position: relative;
-  z-index: 3;
-}
-
-@media (max-width: 767px) {
-  .testimonials__image {
-    height: 70vw;
-    width: 70vw;
-  }
-}
-
-.testimonials__image img {
-  border-radius: 50%;
-  position: relative;
   z-index: 2;
-  border: 3px solid #ffffff;
-}
-
-.testimonials__image--square img {
-  border-radius: 0;
-}
-
-.testimonials__image-decorator {
-  display: block;
-  content: '';
-  z-index: 1;
-  background: #f6a520;
-  width: 430px;
-  height: 420px;
-  border-radius: 50%;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  opacity: 0;
-}
-
-@media (max-width: 767px) {
-  .testimonials__image-decorator {
-    height: 72vw;
-    width: 72vw;
-    top: 0;
-    left: 0;
-  }
-}
-
-.testimonials__image-decorator--square {
-  width: 400px;
-  height: 400px;
-  border-radius: 0;
 }
 
 .testimonials__content {
@@ -4797,47 +4727,38 @@ html::-webkit-scrollbar-thumb {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 40px;
+  gap: 20px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 40px;
-  z-index: 3;
+  position: relative;
+  z-index: 2;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 767px) {
   .testimonials__content {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    padding: 0;
   }
 }
 
 .testimonials__content p {
   margin: 0;
-  font-size: 23px;
-  line-height: 1.5;
-}
-
-.testimonials__content > div {
-  position: relative;
-  z-index: 3;
 }
 
 .testimonials__name {
-  margin: 20px 0 0;
+  font-size: 17px;
+  position: relative;
+  z-index: 2;
 }
 
 .testimonials__role {
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 400;
   text-align: left;
-  margin: 5px 0 0;
+  position: relative;
+  z-index: 2;
 }
 
 .testimonials__slider {
@@ -5061,7 +4982,7 @@ html::-webkit-scrollbar-thumb {
 
 .text-with-image__picture {
   width: 100%;
-  height: 474px;
+  height: 385px;
 }
 
 @media (max-width: 767px) {
@@ -5071,22 +4992,43 @@ html::-webkit-scrollbar-thumb {
   }
 }
 
+@media (max-width: 510px) {
+  .text-with-image__picture {
+    height: 300px;
+  }
+}
+
 .text-with-image__picture img {
   -o-object-position: center left;
      object-position: center left;
 }
 
-.text-with-image__picture--reverse {
-  /* temporary styles */
+.text-with-image__picture--reverse img {
+  -o-object-position: 0 -40px;
+     object-position: 0 -40px;
+  -webkit-filter: brightness(0.98);
+          filter: brightness(0.98);
 }
 
-.text-with-image__picture--reverse img {
-  -o-object-position: left bottom;
-     object-position: left bottom;
+.text-with-image__picture--small {
+  height: 250px;
+}
+
+@media (max-width: 767px) {
+  .text-with-image__picture--small {
+    margin: 30px 0 0;
+    height: 380px;
+  }
+}
+
+@media (max-width: 510px) {
+  .text-with-image__picture--small {
+    height: 300px;
+  }
 }
 
 .text-with-image__picture--big {
-  height: 520px;
+  height: 450px;
 }
 
 @media (max-width: 767px) {
@@ -5095,8 +5037,15 @@ html::-webkit-scrollbar-thumb {
   }
 }
 
+@media (max-width: 510px) {
+  .text-with-image__picture--big {
+    height: 300px;
+  }
+}
+
 .text-with-image__title {
   color: #303030;
+  font-size: 30px;
 }
 
 .text-with-image__subtitle {
@@ -9246,7 +9195,7 @@ body.admin-bar .header--fixed {
 }
 
 @media (max-width: 425px) {
-  .woocommerce-form-coupon-wrapper .button, .woocommerce-form-coupon-wrapper .cta .mailchimp-newsletter__form input[type="submit"], .cta .mailchimp-newsletter__form .woocommerce-form-coupon-wrapper input[type="submit"], .woocommerce-form-coupon-wrapper .woocommerce-checkout .woocommerce #ship-to-different-address label::after, .woocommerce-checkout .woocommerce #ship-to-different-address .woocommerce-form-coupon-wrapper label::after {
+  .woocommerce-form-coupon-wrapper .button, .woocommerce-form-coupon-wrapper .cta .mailchimp-newsletter__form input[type='submit'], .cta .mailchimp-newsletter__form .woocommerce-form-coupon-wrapper input[type='submit'], .woocommerce-form-coupon-wrapper .woocommerce-checkout .woocommerce #ship-to-different-address label::after, .woocommerce-checkout .woocommerce #ship-to-different-address .woocommerce-form-coupon-wrapper label::after {
     min-width: 200px;
   }
 }
@@ -9744,7 +9693,7 @@ ul#shipping_method {
   font-weight: 500;
 }
 
-.single-product .woocommerce-message .button, .single-product .woocommerce-message .cta .mailchimp-newsletter__form input[type="submit"], .cta .mailchimp-newsletter__form .single-product .woocommerce-message input[type="submit"], .single-product .woocommerce-message .woocommerce-checkout .woocommerce #ship-to-different-address label::after, .woocommerce-checkout .woocommerce #ship-to-different-address .single-product .woocommerce-message label::after {
+.single-product .woocommerce-message .button, .single-product .woocommerce-message .cta .mailchimp-newsletter__form input[type='submit'], .cta .mailchimp-newsletter__form .single-product .woocommerce-message input[type='submit'], .single-product .woocommerce-message .woocommerce-checkout .woocommerce #ship-to-different-address label::after, .woocommerce-checkout .woocommerce #ship-to-different-address .single-product .woocommerce-message label::after {
   margin: 15px 0 0;
 }
 
@@ -10144,7 +10093,7 @@ ul#shipping_method {
   border-left: none;
 }
 
-.single-product #primary form .button, .single-product #primary form .cta .mailchimp-newsletter__form input[type="submit"], .cta .mailchimp-newsletter__form .single-product #primary form input[type="submit"], .single-product #primary form .woocommerce-checkout .woocommerce #ship-to-different-address label::after, .woocommerce-checkout .woocommerce #ship-to-different-address .single-product #primary form label::after {
+.single-product #primary form .button, .single-product #primary form .cta .mailchimp-newsletter__form input[type='submit'], .cta .mailchimp-newsletter__form .single-product #primary form input[type='submit'], .single-product #primary form .woocommerce-checkout .woocommerce #ship-to-different-address label::after, .woocommerce-checkout .woocommerce #ship-to-different-address .single-product #primary form label::after {
   margin: 0 0 0 10px;
 }
 
