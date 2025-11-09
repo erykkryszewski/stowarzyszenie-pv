@@ -8,30 +8,25 @@
   transition: all 250ms ease;
   z-index: 10;
 
-  @media (max-width: 991px) {
-    padding: 10px 0;
-    min-height: 65px;
-  }
-
   &--fixed {
     padding: 5px 0;
   }
 
   &__logo {
-    width: 200px;
+    width: 280px;
+    left: 0;
     flex-shrink: 0;
     position: relative;
     transition: all 250ms ease;
-    left: -17px;
-
-    @media (max-width: 991px) {
-      position: static;
-    }
 
     img,
     svg {
       max-width: 100%;
       height: auto;
+    }
+
+    @media (width <= 991px) {
+      position: static;
     }
   }
 
@@ -46,10 +41,6 @@
   &__social-media {
     margin: 0 0 0 30px;
 
-    @media (max-width: 499px) {
-      display: none;
-    }
-
     li {
       a {
         width: 25px;
@@ -58,11 +49,15 @@
         img {
           filter: brightness(0) invert(1);
 
-          @media (max-width: 991px) {
+          @media (width <= 991px) {
             filter: brightness(0) invert(1);
           }
         }
       }
+    }
+
+    @media (width <= 499px) {
+      display: none;
     }
   }
 
@@ -72,7 +67,7 @@
     gap: 12px;
     margin: 0 0 0 30px;
 
-    @media (max-width: 1199px) {
+    @media (width <= 1199px) {
       display: none !important;
     }
   }
@@ -85,10 +80,6 @@
       border: 2px solid $theme-color;
       color: $white;
       background: $theme-color;
-    }
-
-    @media (max-width: 599px) {
-      display: none;
     }
 
     &--first {
@@ -120,6 +111,10 @@
         }
       }
     }
+
+    @media (width <= 599px) {
+      display: none;
+    }
   }
 
   &__menu {
@@ -128,32 +123,9 @@
     justify-content: flex-end;
     gap: 5px;
 
-    @media (min-width: 1200px) {
-      transition: all 350ms ease-in-out;
-    }
-
-    @media (max-width: 1199px) {
-      flex-direction: column;
-      background: $white;
-      color: $text-color;
-      position: absolute;
-      top: calc(100% - 2px);
-      display: none;
-      z-index: 10;
-      left: rem-calc(-15);
-      width: calc(100% + 30px);
-      padding: 25px 0 30px;
-    }
-
     > li {
       margin: 0;
       position: relative;
-
-      @media (max-width: 1199px) {
-        width: 100%;
-        text-align: center;
-        margin: 0;
-      }
 
       > a {
         font-size: 15px;
@@ -168,7 +140,7 @@
           width: calc(100% - 10px);
           height: 2px;
           left: 5px;
-          bottom: 0px;
+          bottom: 0;
           background: $theme-color;
           display: block;
           position: absolute;
@@ -176,7 +148,7 @@
           transform: scale(0, 1);
           transform-origin: center;
 
-          @media (max-width: 1199px) {
+          @media (width <= 1199px) {
             display: none;
           }
         }
@@ -187,14 +159,15 @@
           &::before {
             transform: scale(1, 1);
           }
+
           + ul.sub-menu {
-            @media (min-width: 1200px) {
+            @media (width >= 1200px) {
               transform: scale(1);
             }
           }
         }
 
-        @media (max-width: 1199px) {
+        @media (width <= 1199px) {
           padding: 10px 0;
           color: $text-color;
           text-transform: uppercase;
@@ -210,9 +183,9 @@
 
       &.menu-item-has-children {
         > a {
-          @media (min-width: 1200px) {
+          @media (width >= 1200px) {
             padding: 5px 5px 48px;
-            margin: 0px 0 -43px;
+            margin: 0 0 -43px;
           }
         }
       }
@@ -221,27 +194,8 @@
         display: block;
         min-width: 220px;
 
-        @media (min-width: 1200px) {
-          transform-origin: top;
-          transform: scale(1, 0);
-          transition: all 350ms ease;
-          position: absolute;
-          top: 67px;
-          background: $theme-color;
-          padding: 0;
-          left: 5px;
-          z-index: 10;
-        }
-
-        @media (max-width: 1199px) {
-          padding: 12px 0 20px;
-          background: $theme-color;
-          display: none;
-        }
-
         li {
           a {
-            padding: 0;
             color: $text-color;
             text-transform: uppercase;
             font-size: 15px;
@@ -255,7 +209,7 @@
               background: $very-light-gray;
             }
 
-            @media (max-width: 1199px) {
+            @media (width <= 1199px) {
               font-size: 15px;
             }
           }
@@ -276,11 +230,52 @@
         }
 
         &--fixed {
-          @media (min-width: 1200px) {
+          @media (width >= 1200px) {
             top: 56px;
           }
         }
+
+        @media (width >= 1200px) {
+          transform-origin: top;
+          transform: scale(1, 0);
+          transition: all 350ms ease;
+          position: absolute;
+          top: 51px;
+          background: $theme-color;
+          padding: 0;
+          left: 5px;
+          z-index: 10;
+        }
+
+        @media (width <= 1199px) {
+          padding: 12px 0 20px;
+          background: $theme-color;
+          display: none;
+        }
       }
+
+      @media (width <= 1199px) {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+      }
+    }
+
+    @media (width >= 1200px) {
+      transition: all 350ms ease-in-out;
+    }
+
+    @media (width <= 1199px) {
+      flex-direction: column;
+      background: $white;
+      color: $text-color;
+      position: absolute;
+      top: calc(100% - 2px);
+      display: none;
+      z-index: 10;
+      left: rem-calc(-15);
+      width: calc(100% + 30px);
+      padding: 25px 0 30px;
     }
   }
 
@@ -294,6 +289,7 @@
       display: block;
       position: relative;
       z-index: 1;
+
       /* temporary styles */
       filter: brightness(0);
       height: 40px;
@@ -327,6 +323,11 @@
         animation: pulse 700ms forwards ease-in-out;
       }
     }
+  }
+
+  @media (width <= 991px) {
+    padding: 10px 0;
+    min-height: 65px;
   }
 }
 
