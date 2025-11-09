@@ -72,7 +72,9 @@ $final_title_for_hero = $taxonomy_title !== "" ? $taxonomy_title : "Blog";
                 <div class="col-12 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
                     <div class="single-blog-post__content">
                         <?php if (!empty(get_post_thumbnail_id($post->ID))): ?>
-                        <div class="single-blog-post__image"><?php echo wp_get_attachment_image(get_post_thumbnail_id($post->ID), 'full', '', [ 'class' => 'object-fit-cover', ]); ?></div>
+                        <div class="single-blog-post__image">
+                            <?php echo wp_get_attachment_image(get_post_thumbnail_id($post->ID), 'large', '', ['class' => ''],); ?>
+                        </div>
                         <?php endif; ?>
                         <h2><?php the_title(); ?></h2>
                         <p><?php the_content(); ?></p>
@@ -93,7 +95,7 @@ $final_title_for_hero = $taxonomy_title !== "" ? $taxonomy_title : "Blog";
                         </div>
                         <div class="prev-and-next-posts__item <?php if (empty($next_post)) { echo 'prev-and-next-posts__item--blank'; } ?>">
                             <?php if (!empty($next_post)): ?>
-                            <a href="<?php echo get_permalink($next_post->ID); ?>" class="button button--single mt-4">Następny wpis</a>
+                            <a href="<?php echo get_permalink($next_post->ID,); ?>" class="button button--single mt-4">Następny wpis</a>
                             <?php endif; ?>
                         </div>
                     </div>
