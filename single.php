@@ -72,9 +72,7 @@ $final_title_for_hero = $taxonomy_title !== "" ? $taxonomy_title : "Blog";
                 <div class="col-12 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
                     <div class="single-blog-post__content">
                         <?php if (!empty(get_post_thumbnail_id($post->ID))): ?>
-                        <div class="single-blog-post__image">
-                            <?php echo wp_get_attachment_image(get_post_thumbnail_id($post->ID), 'full', '', ['class' => 'object-fit-cover'],); ?>
-                        </div>
+                        <div class="single-blog-post__image"><?php echo wp_get_attachment_image(get_post_thumbnail_id($post->ID), 'full', '', [ 'class' => 'object-fit-cover', ]); ?></div>
                         <?php endif; ?>
                         <h2><?php the_title(); ?></h2>
                         <p><?php the_content(); ?></p>
@@ -87,16 +85,7 @@ $final_title_for_hero = $taxonomy_title !== "" ? $taxonomy_title : "Blog";
                         <div class="prev-and-next-posts__item <?php if (empty($prev_post)) { echo 'prev-and-next-posts__item--blank'; } ?>">
                             <?php if (!empty($prev_post)): ?>
                             <div class="prev-and-next-posts__wrapper">
-                                <div class="prev-and-next-posts__image">
-                                    <img
-                                        src="<?php echo has_post_thumbnail($prev_post) ? get_the_post_thumbnail_url($prev_post, 'medium') : get_template_directory_uri() . '/images/blog-placeholder.jpg'; ?>"
-                                        alt="prev-and-next-posts image"
-                                        class="object-fit-cover"
-                                    />
-                                    <a href="<?php echo get_permalink($prev_post->ID,); ?>" class="prev-and-next-posts__image-link"></a>
-                                </div>
                                 <div class="prev-and-next-posts__content">
-                                    <a href="<?php echo get_permalink($prev_post->ID,); ?>" class="prev-and-next-posts__title"><?php echo $prev_post->post_title; ?></a>
                                     <a href="<?php echo get_permalink($prev_post->ID,); ?>" class="button button--single mt-4">Poprzedni wpis</a>
                                 </div>
                             </div>
@@ -104,20 +93,7 @@ $final_title_for_hero = $taxonomy_title !== "" ? $taxonomy_title : "Blog";
                         </div>
                         <div class="prev-and-next-posts__item <?php if (empty($next_post)) { echo 'prev-and-next-posts__item--blank'; } ?>">
                             <?php if (!empty($next_post)): ?>
-                            <div class="prev-and-next-posts__wrapper">
-                                <div class="prev-and-next-posts__image">
-                                    <img
-                                        src="<?php echo has_post_thumbnail($next_post) ? get_the_post_thumbnail_url($next_post, 'medium') : get_template_directory_uri() . '/images/blog-placeholder.jpg'; ?>"
-                                        alt="prev-and-next-posts image"
-                                        class="object-fit-cover"
-                                    />
-                                    <a href="<?php echo get_permalink($next_post->ID,); ?>" class="prev-and-next-posts__image-link"></a>
-                                </div>
-                                <div class="prev-and-next-posts__content">
-                                    <a href="<?php echo get_permalink($next_post->ID,); ?>" class="prev-and-next-posts__title"><?php echo $next_post->post_title; ?></a>
-                                    <a href="<?php echo get_permalink($next_post->ID,); ?>" class="button button--single mt-4">Następny wpis</a>
-                                </div>
-                            </div>
+                            <a href="<?php echo get_permalink($next_post->ID); ?>" class="button button--single mt-4">Następny wpis</a>
                             <?php endif; ?>
                         </div>
                     </div>
