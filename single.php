@@ -35,6 +35,9 @@ if (!is_wp_error($taxonomy_terms) && !empty($taxonomy_terms)) {
         : ucwords($first_term->name);
 }
 $final_title_for_hero = $taxonomy_title !== "" ? $taxonomy_title : "Blog";
+
+$has_thumb = has_post_thumbnail();
+$has_excerpt = has_excerpt(get_the_ID());
 ?>
 
 <main id="main" class="main main--subpage">
@@ -69,14 +72,31 @@ $final_title_for_hero = $taxonomy_title !== "" ? $taxonomy_title : "Blog";
     <div class="single-blog-post">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
+                <div class="col-12 col-lg-10 offset-lg-1">
                     <div class="single-blog-post__content">
-                        <?php if (!empty(get_post_thumbnail_id($post->ID))): ?>
-                        <div class="single-blog-post__image">
-                            <?php echo wp_get_attachment_image(get_post_thumbnail_id($post->ID), 'large', '', ['class' => ''],); ?>
+                        <?php if ($has_thumb && $has_excerpt): ?>
+                        <div class="text-with-image">
+                            <div class="container">
+                                <div class="row text-with-image__row text-with-image__row--reverse text-with-image__row--single">
+                                    <div class="col-12 col-md-6 col-lg-5">
+                                        <h2 class="text-with-image__title"><?php the_title(); ?></h2>
+                                        <div>
+                                            <p><?php echo get_the_excerpt(); ?></p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-7">
+                                        <div class="text-with-image__picture text-with-image__picture--single text-with-image__picture--reverse">
+                                            <?php echo wp_get_attachment_image(get_post_thumbnail_id(), 'large', false, ['class' => '']); ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <?php endif; ?>
+
+                        <?php elseif ($has_thumb && !$has_excerpt): ?>
+                        <div class="single-blog-post__image"><?php echo wp_get_attachment_image(get_post_thumbnail_id(), 'large', false, ['class' => '']); ?></div>
                         <h2><?php the_title(); ?></h2>
+                        <?php endif; ?>
                         <p><?php the_content(); ?></p>
                     </div>
                     <div class="single-blog-post__info">
