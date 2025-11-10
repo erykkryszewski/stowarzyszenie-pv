@@ -40,7 +40,7 @@ $has_thumb = has_post_thumbnail();
 $has_excerpt = has_excerpt(get_the_ID());
 ?>
 
-<main id="main" class="main main--subpage">
+<main id="main" class="main main--subpage main--<?php echo $taxonomy_title; ?>">
     <?php if (have_posts()): ?> <?php while (have_posts()): the_post(); ?> <?php if (get_post_type() == 'CPT'): ?>
 
     <!-- CPT -->
@@ -78,15 +78,15 @@ $has_excerpt = has_excerpt(get_the_ID());
                         <div class="text-with-image">
                             <div class="container">
                                 <div class="row text-with-image__row text-with-image__row--reverse text-with-image__row--single">
-                                    <div class="col-12 col-md-6 col-lg-5">
+                                    <div class="col-12 col-md-6 col-lg-6">
                                         <h2 class="text-with-image__title"><?php the_title(); ?></h2>
                                         <div>
                                             <p><?php echo get_the_excerpt(); ?></p>
                                         </div>
                                     </div>
-                                    <div class="col-12 col-md-6 col-lg-7">
+                                    <div class="col-12 col-md-6 col-lg-6">
                                         <div class="text-with-image__picture text-with-image__picture--single text-with-image__picture--reverse">
-                                            <?php echo wp_get_attachment_image(get_post_thumbnail_id(), 'large', false, ['class' => '']); ?>
+                                            <?php echo wp_get_attachment_image(get_post_thumbnail_id(), 'large', false, ['class' => ''],); ?>
                                         </div>
                                     </div>
                                 </div>
@@ -94,7 +94,7 @@ $has_excerpt = has_excerpt(get_the_ID());
                         </div>
 
                         <?php elseif ($has_thumb && !$has_excerpt): ?>
-                        <div class="single-blog-post__image"><?php echo wp_get_attachment_image(get_post_thumbnail_id(), 'large', false, ['class' => '']); ?></div>
+                        <div class="single-blog-post__image"><?php echo wp_get_attachment_image(get_post_thumbnail_id(), 'large', false, [ 'class' => '', ]); ?></div>
                         <h2><?php the_title(); ?></h2>
                         <?php endif; ?>
                         <p><?php the_content(); ?></p>
