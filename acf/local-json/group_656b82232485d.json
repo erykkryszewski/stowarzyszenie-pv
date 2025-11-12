@@ -26,8 +26,8 @@
             "sub_fields": [
                 {
                     "key": "field_656b8239c11f8",
-                    "label": "Image",
-                    "name": "image",
+                    "label": "Logo",
+                    "name": "logo",
                     "aria-label": "",
                     "type": "image",
                     "instructions": "",
@@ -51,6 +51,32 @@
                     "parent_repeater": "field_656b8224c11f7"
                 }
             ]
+        },
+        {
+            "key": "field_69148eb908e4c",
+            "label": "Dynamic logos",
+            "name": "dynamic_logos",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "regular_members": "Zwyczajni",
+                "supporting_members": "Wspierający",
+                "none": "Nie zaciągaj dynamicznie"
+            },
+            "default_value": "none",
+            "return_format": "value",
+            "allow_null": 0,
+            "other_choice": 0,
+            "layout": "vertical",
+            "save_other_choice": 0
         }
     ],
     "location": [
@@ -71,5 +97,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1701544614
+    "modified": 1762955187
 }
