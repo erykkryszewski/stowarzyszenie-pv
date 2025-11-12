@@ -275,4 +275,10 @@ return [
     'category' => 'ercodingtheme',
     'align' => 'full',
   ],
+
+  'four-columns' => [
+    'title' => __('Four columns', 'ercodingtheme'),
+    'category' => 'ercodingtheme',
+    'align' => 'full',
+  ],
 ];
