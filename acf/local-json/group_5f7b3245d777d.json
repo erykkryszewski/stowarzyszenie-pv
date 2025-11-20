@@ -259,8 +259,28 @@
             "rows_per_page": 20
         },
         {
+            "key": "field_691f75852f15b",
+            "label": "Header code",
+            "name": "header_code",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "rows": 5,
+            "placeholder": "",
+            "new_lines": ""
+        },
+        {
             "key": "field_600d9bca18051",
-            "label": "Google Analytics code",
+            "label": "Footer code",
             "name": "google_analytics_code",
             "aria-label": "",
             "type": "textarea",
@@ -273,9 +293,9 @@
                 "id": ""
             },
             "default_value": "",
-            "placeholder": "",
             "maxlength": "",
             "rows": 5,
+            "placeholder": "",
             "new_lines": ""
         },
         {
@@ -619,5 +639,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1756414679
+    "modified": 1763669398
 }

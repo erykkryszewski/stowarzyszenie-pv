@@ -9,8 +9,12 @@
   &__details {
     width: 100%;
     display: flex;
-    gap: 30px;
+    gap: 15px;
     margin: 3px 0 0;
+
+    @media (width <= 600px) {
+      flex-wrap: wrap;
+    }
   }
 
   &__info {
@@ -22,8 +26,9 @@
     h4,
     h5,
     h6 {
-      @extend .h4;
       margin: 17px 0 0;
+
+      @extend .h4;
     }
 
     p {
@@ -35,8 +40,7 @@
     }
 
     a {
-      @extend .paragraph;
-      margin: 10px 0 0px;
+      margin: 10px 0 0;
       display: block;
       font-weight: 500;
       font-size: 15px;
@@ -44,6 +48,13 @@
       &:last-of-type {
         margin: -5px 0 0;
       }
+
+      @extend .paragraph;
+    }
+
+    @media (width <= 600px) {
+      width: auto;
+      max-width: calc(50% - 7.5px);
     }
   }
 
@@ -79,18 +90,13 @@
   &__form {
     margin: 3px 0 0;
     padding: 50px;
-    box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 20px 0 rgb(0 0 0 / 10%);
     background-color: $white;
-
-    @media (max-width: 767px) {
-      margin: 30px 0 0;
-    }
 
     form {
       .gform_body {
         .gform_fields {
-          grid-row-gap: 25px;
-          grid-column-gap: 25px;
+          grid-gap: 25px;
 
           > div {
             width: 100%;
@@ -144,19 +150,23 @@
         text-align: right;
         display: block !important;
 
-        @media (max-width: 767px) {
-          text-align: center;
-          margin: 25px 0 0 !important;
-        }
-
         input {
           border-radius: $theme-border-radius !important;
+        }
+
+        @media (width <= 767px) {
+          text-align: center;
+          margin: 25px 0 0 !important;
         }
       }
     }
 
     .gform_confirmation_message {
       @extend .paragraph;
+    }
+
+    @media (width <= 767px) {
+      margin: 30px 0 0;
     }
   }
 }

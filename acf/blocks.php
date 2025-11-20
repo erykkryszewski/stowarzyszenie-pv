@@ -281,4 +281,10 @@ return [
     'category' => 'ercodingtheme',
     'align' => 'full',
   ],
+
+  'form' => [
+    'title' => __('Form', 'ercodingtheme'),
+    'category' => 'ercodingtheme',
+    'align' => 'full',
+  ],
 ];
