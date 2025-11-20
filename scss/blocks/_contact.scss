@@ -12,7 +12,7 @@
     gap: 15px;
     margin: 3px 0 0;
 
-    @media (width <= 600px) {
+    @media (width <= 800px) {
       flex-wrap: wrap;
     }
   }
@@ -52,7 +52,7 @@
       @extend .paragraph;
     }
 
-    @media (width <= 600px) {
+    @media (width <= 800px) {
       width: auto;
       max-width: calc(50% - 7.5px);
     }
